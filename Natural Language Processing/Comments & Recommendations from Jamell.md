@@ -20,7 +20,18 @@ Our related works section is sparse, and lacks the necessary detail needed to ef
 - it allows for better contextualization of our contribution to the literature 
 
 ### Modeling 
-Our modeling needs work. In essence we cannot use traditional
+Our modeling needs work. In essence we cannot use traditional statistical models as anything but a baseline for more complicated transformer architectures. We can also not "bash" our own paper in our comparisons to Ahmed in section 8. Jamell recommended we utilize at least 3 (maybe 4) neural networks in our paper. Potential architectures included: 
+
+1. [[DistilBERT]]
+2. [[HateBERT]]
+3. [[RoBERTa]]
+
+We don't need to get rid of XLNet, and we can get away with not including BERT because we have all these variants as well. Another idea would be to utilize BERT as our baseline for the other models. Further research is required. Bottom line - we have no chance of pushing out a paper with a single deep learning model when the previous literature used multiple. 
+
+We also do not spend much time optimizing the hyperparameters of XLNet. At minimum we should be giving a search across a sample space to optimize for batch size, and potentially decreasing the learning rate, and letting the model train for longer. We can also tinker around with the number of hidden layers to optimize results. 
+
+**What about computational complexity?**
+
 
 ### Embedding and Classification Methods are Too Detailed
 Understanding which details to include, and which ones to exclude is difficult, but it is dependent on the standards for the task that your are publishing. In the cyberbullying/nlp field we don't need to expand on BOW, or TF-IDF, and we can keep our descriptions of neural models to a minimum. Jamell proposed that we take our sections 5 and 6, combine them and lay them out as so...
