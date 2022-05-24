@@ -31,3 +31,4 @@ This is the opposite of feature drift. Our feature/covariate distributions remai
 $$P(x_t) = P(x_r) \text{ and } P(y_t|x_t) \neq P(y_r|x_r)$$
 ### Dual Drift
 As you may have guessed by this point dual drift is when we have both feature drift and concept drift at the same time. 
+$$P(x_t) \neq P(x_r) \text{ and } P(y_t|x_t) \neq P(y_r|x_r)$$
