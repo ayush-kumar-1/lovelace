@@ -9,4 +9,17 @@ Oftentimes the distribution of data at time of training becomes obsolete by the 
 - [[Characteristic Stability Index]]
 
 ## What is Data Drift? 
-In supervised and semi-supervised settings we assume that the each pair of observations $(x, y)$ are drawn independently from the same joint distribution $p(x,y)$. As our data begins to diverge from this distribution we arrive in a scenario where our key model assumptions do not hold. Ensuring b
+In supervised and semi-supervised settings we assume that the each pair of observations $(x, y)$ are drawn independently from the same joint distribution $p(x,y)$. As our data begins to diverge from this distribution we arrive in a scenario where our key model assumptions do not hold. Ensuring proper data quality means making sure our data satisfies the assumptions of our model. Model assumptions can vary widely, data can range from images, text, tabular, to complicated graph structures. Detecting drift can become a complicated problem that should be addressed before the first model is built. 
+
+Formally we have data drift when the training distribution $T$ and the real world distribution $R$ diverge.
+$$P(x_t, y_t) \neq P(x_r, y_r)$$
+Not only can data drift mess with overall distribution, it can also violate assumptions of independence if there are external factors changing the distribution, or we see drift in a particular direction due to macroeconomic conditions. Some causes of drift to watch out for include: 
+1. Sample selection bias 
+2. Non-stationary environment 
+
+### Feature Drift 
+Feature drift occurs when the underlying distribution of our feature vector changes, but the ground truth relationship between $x$ and $y$ remains the same. In simpler terms we more frequently observe data that previously was under represented, or not present. 
+
+Formally feature drift (or covariate drift) occurs when 
+
+$$P(x_t) \neq P(x_r) \text{ and } P(y_t|x_t) = P(y_r|x_r)$$
