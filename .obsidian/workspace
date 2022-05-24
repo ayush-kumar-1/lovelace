@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "KL Divergence.md",
+            "file": "Data Quality/Characteristic Stability Index.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KL Divergence.md",
+                "file": "Data Quality/Characteristic Stability Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
-    "KL Divergence.md",
+    "Data Quality/Characteristic Stability Index.md",
     "Data Quality/Data Drift.md",
     "Data Quality/Data Quality.md",
+    "Data Quality/Population Stability Index.md",
+    "Data Quality/KL Divergence.md",
     "Data Quality/Kullback–Leibler divergence - Wikipedia.md",
     "Data Quality/Great Expectations.md",
     "Data Quality/Deequ.md",
     "Data Quality/Data Augmentation.md",
-    "Data Quality/Example of Feature Drift.png",
-    "Example of Feature Drift.md",
-    "Data Quality/Traditional MLOps Diagram.png"
+    "Data Quality/Example of Feature Drift.png"
   ]
 }
