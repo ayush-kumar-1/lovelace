@@ -1,7 +1,7 @@
 {
   "collapse-filter": true,
-  "search": "",
-  "showTags": false,
+  "search": "capstone",
+  "showTags": true,
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
@@ -17,6 +17,6 @@
   "repelStrength": 10.6741573033708,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 1.6600228795504812,
+  "scale": 2.7556759606310703,
   "close": false
 }
