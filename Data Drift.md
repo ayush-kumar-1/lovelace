@@ -23,3 +23,11 @@ Feature drift occurs when the underlying distribution of our feature vector chan
 Formally feature drift (or covariate drift) occurs when 
 
 $$P(x_t) \neq P(x_r) \text{ and } P(y_t|x_t) = P(y_r|x_r)$$
+![[Example of Feature Drift.png]]
+Image from [Dataset Shift in Machine Learning | The MIT Press](https://mitpress.mit.edu/books/dataset-shift-machine-learning)
+
+### Concept Drift 
+This is the opposite of feature drift. Our feature/covariate distributions remain the same, but our targets have changed. Formally concept drift occurs when
+$$P(x_t) = P(x_r) \text{ and } P(y_t|x_t) \neq P(y_r|x_r)$$
+### Dual Drift
+As you may have guessed by this point dual drift is when we have our sample 

@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "301fa20b71650b25",
+        "id": "333480997ae2c1d4",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "301fa20b71650b25",
+  "active": "333480997ae2c1d4",
   "lastOpenFiles": [
     "Data Drift.md",
+    "Example of Feature Drift.md",
+    "Example of Feature Drift.png",
     "Lovelace/Data Quality.md",
     "Lovelace/Data Augmentation.md",
     "Deequ.md",
     "Great Expectations.md",
     "Lovelace/Traditional MLOps Diagram.png",
     "PyDeequ Architecture.png",
-    "Lovelace/NLP.md",
-    "Lovelace/Kullback–Leibler divergence - Wikipedia.md",
-    "ReadItLater Inbox/assets/400px-Kullback–Leibler_distributions_example_1.svg.png..png.md"
+    "Lovelace/NLP.md"
   ]
 }
