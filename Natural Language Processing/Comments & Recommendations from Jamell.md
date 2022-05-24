@@ -64,3 +64,6 @@ Understanding which details to include, and which ones to exclude is difficult, 
 		5.3.5 - XLNet
 
 When it comes to LSA, N-grams, or any other technique we tested but didn't use - take it out. If it doesn't work - exclude it. 
+
+### Replace Wordclouds with Bar Graphs
+Wordclouds are not considered professional enough for research, and sometimes are a reason to decline the paper altogether. Replacing them with bar graphs that show the top $n$ words or n-grams are more descriptive and allow for better checks of divergence. 

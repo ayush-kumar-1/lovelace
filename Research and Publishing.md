@@ -9,3 +9,5 @@ tags:
 [Venues | OpenReview](https://openreview.net/)
 [NAACL 2022 Workshop Student Research | OpenReview](https://openreview.net/group?id=aclweb.org/NAACL/2022/Workshop/Student_Research&referrer=%5BHomepage%5D(%2F)#accept)
 - deadline is passed for 2022
+[COLING 2022](https://coling2022.org/accepted)
+- deadline has passed for 2022
