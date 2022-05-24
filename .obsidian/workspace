@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Data Quality/Characteristic Stability Index.md",
+            "file": "The Checklist Manifesto.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Quality/Characteristic Stability Index.md",
+                "file": "The Checklist Manifesto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,8 @@
   },
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
+    "The Checklist Manifesto.md",
+    "Surgical Safety Checklist.jpg",
     "Data Quality/Characteristic Stability Index.md",
     "Data Quality/Data Drift.md",
     "Data Quality/Data Quality.md",
@@ -96,8 +98,6 @@
     "Data Quality/KL Divergence.md",
     "Data Quality/Kullback–Leibler divergence - Wikipedia.md",
     "Data Quality/Great Expectations.md",
-    "Data Quality/Deequ.md",
-    "Data Quality/Data Augmentation.md",
-    "Data Quality/Example of Feature Drift.png"
+    "Data Quality/Deequ.md"
   ]
 }
