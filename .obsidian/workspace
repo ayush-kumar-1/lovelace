@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Data Drift.md",
+            "file": "Data Quality/Data Quality.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Drift.md",
+                "file": "Data Quality/Data Quality.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
-    "Data Drift.md",
+    "Data Quality/Data Quality.md",
+    "Data Quality/Data Drift.md",
+    "Data Quality/Data Augmentation.md",
+    "Data Quality/Deequ.md",
+    "Data Quality/Example of Feature Drift.png",
     "Example of Feature Drift.md",
-    "Example of Feature Drift.png",
-    "Lovelace/Data Quality.md",
-    "Lovelace/Data Augmentation.md",
-    "Deequ.md",
-    "Great Expectations.md",
-    "Lovelace/Traditional MLOps Diagram.png",
-    "PyDeequ Architecture.png",
-    "Lovelace/NLP.md"
+    "Data Quality/Great Expectations.md",
+    "Data Quality/Traditional MLOps Diagram.png",
+    "Data Quality/PyDeequ Architecture.png",
+    "Natural Language Processing/NLP.md"
   ]
 }
