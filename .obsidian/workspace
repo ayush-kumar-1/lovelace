@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "15b187f2f07ec190",
+        "id": "301fa20b71650b25",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Data Drift.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Data Drift.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "15b187f2f07ec190",
+  "active": "301fa20b71650b25",
   "lastOpenFiles": [
-    "ReadItLater Inbox/assets/320px-KL-Gauss-Example.png..png.md",
+    "Data Drift.md",
     "Lovelace/Data Quality.md",
-    "Deequ.md",
-    "PyDeequ Architecture.png",
-    "Lovelace/Traditional MLOps Diagram.png",
-    "Lovelace/Data_Science_Capstone_Project_Final_Report.pdf",
-    "Lovelace/Kullback–Leibler divergence - Wikipedia.md",
-    "Why data drift detection is important and how do you automate it in 5 simple steps.md",
     "Lovelace/Data Augmentation.md",
-    "ReadItLater.md"
+    "Deequ.md",
+    "Great Expectations.md",
+    "Lovelace/Traditional MLOps Diagram.png",
+    "PyDeequ Architecture.png",
+    "Lovelace/NLP.md",
+    "Lovelace/Kullback–Leibler divergence - Wikipedia.md",
+    "ReadItLater Inbox/assets/400px-Kullback–Leibler_distributions_example_1.svg.png..png.md"
   ]
 }
