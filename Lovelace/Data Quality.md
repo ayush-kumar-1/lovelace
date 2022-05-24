@@ -8,4 +8,7 @@ Data quality has come into the forefront of the machine learning world with the 
 
 There are many techniques to try and detect data drift, for example this article from medium.
 
-[[Why data drift detection is important and how do you automate it in 5 simple steps]]
+## Data Quality Tools 
+1. [[Deequ]]
+2. [[Great Expectations]]
+3. 

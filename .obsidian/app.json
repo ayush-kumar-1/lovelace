@@ -4,5 +4,6 @@
   "promptDelete": false,
   "readableLineLength": false,
   "spellcheck": true,
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "alwaysUpdateLinks": true
 }
