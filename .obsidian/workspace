@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Data Quality/Kullback–Leibler divergence - Wikipedia.md",
+            "file": "Data Quality/KL Divergence.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Quality/Kullback–Leibler divergence - Wikipedia.md",
+                "file": "Data Quality/KL Divergence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
-    "Data Quality/Kullback–Leibler divergence - Wikipedia.md",
     "Data Quality/KL Divergence.md",
-    "Data Quality/Data Drift.md",
-    "Data Quality/Data Augmentation.md",
-    "The Checklist Manifesto.md",
+    "Natural Language Processing/Data_Science_Capstone_Project_Final_Report.pdf",
     "Checklist for Checklists.png",
-    "Surgical Safety Checklist.jpg",
-    "Data Quality/Characteristic Stability Index.md",
+    "Data Quality/Deequ.md",
     "Data Quality/Data Quality.md",
-    "Data Quality/Population Stability Index.md"
+    "Data Quality/Dimensions of Data Quality.png",
+    "The Checklist Manifesto.md",
+    "Data Quality/Kullback–Leibler divergence - Wikipedia.md",
+    "Data Quality/Data Drift.md",
+    "Data Quality/Data Augmentation.md"
   ]
 }
