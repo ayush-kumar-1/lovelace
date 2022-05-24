@@ -1,3 +1,7 @@
+---
+tags:
+- dataquality
+---
 # Population Stability Index
 [Statistical Properties of PSI](http://www.stat.wmich.edu/naranjo/PSI.pdf )
 > Population Stability Index (PSI) compares the distribution of predicted probability in scoring data with predicted probability in training data. The idea is to check “How different the current scored data is, compared to the training data”.
