@@ -19,5 +19,22 @@ Our related works section is sparse, and lacks the necessary detail needed to ef
 - related works forces you to review the current literature in depth around the subject 
 - it allows for better contextualization of our contribution to the literature 
 
+### Modeling 
+Our modeling needs work. In essence we cannot use traditional
+
 ### Embedding and Classification Methods are Too Detailed
-Understanding which details to include, and which ones to exclude is difficult, but it is dependent on the standards for the task that your are publishing. In the cyberbullying/nlp field we don't need to expand on everything we have 
+Understanding which details to include, and which ones to exclude is difficult, but it is dependent on the standards for the task that your are publishing. In the cyberbullying/nlp field we don't need to expand on BOW, or TF-IDF, and we can keep our descriptions of neural models to a minimum. Jamell proposed that we take our sections 5 and 6, combine them and lay them out as so...
+
+5. Classification Methods
+	5.1 -  Feature Extraction 
+		5.1.1 - BOW
+		5.1.2 - TF-IDF
+	5.2 - Baseline models 
+		5.2.1 - SVM or LR
+		5.2.2 - XGBoost
+	5.3 - Deep Learning Methods 
+		5.3.1 - BERT 
+		5.3.2 - DistilBERT 
+		5.3.3 - RoBERTa
+		5.3.4 - HateBERT
+		5.3.5 - XLNet
