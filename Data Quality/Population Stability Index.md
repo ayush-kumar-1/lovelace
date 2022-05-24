@@ -12,4 +12,4 @@ When $p_i = q_i$ the value $(\frac 1 n + \frac  1 m)^{-1} PSI \sim \chi^2_{B-1}$
 
 $$H_0: P = Q \quad H_a: P \neq Q$$
 We reject if 
-$$PSI > (\frac 1 n + \frac$$
+$$PSI > \left(\frac 1 n + \frac 1 m\right) \chi^2_{\alpha, B-1}$$
