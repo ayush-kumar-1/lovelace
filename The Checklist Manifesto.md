@@ -8,8 +8,8 @@
 A 35% reduction in deaths is a massive improvement, and speaks to the power of simple one-page checklists. Checklists are used by architects, construction managers, airplane pilots, militaries, and hospitals around the world. In an era with unlimited access the information there is simply too much for a single person to know everything. Checklists are not an insult to the expert, they are a tool to free up valuable mental energy to focus on the long-tail of errors. The case for checklists can be made in 3 simple points: 
 1. Allocate Focus Efficiently - Checklists help experienced practitioners free up mental energy to focus on what's most important 
 2. Even the Power Dynamics - Checklists provide common authority to allow all team members to contribute regardless of experience. Gawande brought up increases in nurse communication with attending surgeons thanks to checklists. This communication increase was the change behind the massive reduction in mortality. When communication becomes a part of the process everyone communicates more.  
-3. Simplify Complexity and Streamline Proces
+3. Simplify Complexity and Streamline Processes - Checklists make it easy to have a starting point no matter how complicated the problem. 
 
 ## How to Design a Checklist
-![[Pasted image 20220524112534.png]]
-Checklists run into many of the same problems as other changes in business processes. If the friction involved in implementation is too great we run into 
+![[Checklist for Checklists.png]]
+Checklists run into many of the same problems as other changes in business processes. If the friction involved in implementation is too great it won't be implemented. If a checklist is too simple or trivial, it won't get utilized or it will fail at it's ultimate goal. The above checklist for checklists provides the key considerations needed for proper working. 
