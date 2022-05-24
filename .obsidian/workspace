@@ -1,0 +1,100 @@
+{
+  "main": {
+    "id": "29a13ccca1470348",
+    "type": "split",
+    "children": [
+      {
+        "id": "8e0ecd22aa44232c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Lovelace/Data Augmentation.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2d21e337124296fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "d810c6b5bda33276",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "01dc994654037486",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "3ff7c0ab60936c28",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "068a167cf4a25bcd",
+    "type": "split",
+    "children": [
+      {
+        "id": "e261ce3b87a72ba7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "94bfdb60f96e23e0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Lovelace/Data Augmentation.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "8e0ecd22aa44232c",
+  "lastOpenFiles": [
+    "Lovelace/Data Augmentation.md",
+    "Lovelace/Data Quality.md",
+    "Lovelace/Data_Science_Capstone_Project_Final_Report.pdf",
+    "Lovelace/Kullback–Leibler divergence - Wikipedia.md",
+    "ReadItLater.md",
+    "Article.md",
+    "Lovelace/Textsnippet.md"
+  ]
+}
