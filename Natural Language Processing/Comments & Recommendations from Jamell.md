@@ -14,7 +14,17 @@ Much of our project was written in context of the requirements of the capstone p
 
 When we submit to a workshop/conference/journal our paper will be reviewed by people who have studied the subject for 5 years, 10 years or even longer. If our information is not 100% correct, or there is room for doubt we place ourselves at high risk for rejection. We must have perfect confidence in our ideas, and convey them clearly and concisely.  
 
-**How do we make our w
+**How do we make our writing better?**
+
+Read, read, read. The more cyberbullying and hate speech papers we consume, the better idea we get of the lexicon of the topic, and the structure of the papers. Every topic within ML has a slightly different conventions and vocabulary we must familiarize ourselves with. 
+
+Avoid the universal 'we' for the most part. Overall we have to learn how to tell a coherent story. We need to focus on the rewrite portion as follows: 
+1. Research - read, read, read 
+	Consuming as much as possible and rewriting our related works is the top priority
+2. Remove Content 
+	Anything that is standard in the industry must go. We need to know what to get rid of
+3. Intro should be written second to last, abstract should be written very last 
+4. Expand on results, discussion, and conclusion
 
 ### Introduction & Related Works Lack Detail 
 Our related works section is sparse, and lacks the necessary detail needed to effectively tell a story. Related works should be comprehensive review of the subject, its importance, and our inspiration for research. We should a minimum of 15+ citations in this section (we currently have 2). This should also be our starting point for improvement for a few key reasons
