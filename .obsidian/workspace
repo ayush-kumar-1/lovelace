@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Data Quality/Data Quality.md",
+            "file": "Data Quality/Data Drift.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Quality/Data Quality.md",
+                "file": "Data Quality/Data Drift.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
-    "Data Quality/Data Quality.md",
     "Data Quality/Data Drift.md",
-    "Data Quality/Data Augmentation.md",
+    "Data Quality/Kullback–Leibler divergence - Wikipedia.md",
+    "Data Quality/Great Expectations.md",
     "Data Quality/Deequ.md",
+    "Data Quality/Data Augmentation.md",
+    "Data Quality/Data Quality.md",
     "Data Quality/Example of Feature Drift.png",
     "Example of Feature Drift.md",
-    "Data Quality/Great Expectations.md",
     "Data Quality/Traditional MLOps Diagram.png",
-    "Data Quality/PyDeequ Architecture.png",
-    "Natural Language Processing/NLP.md"
+    "Data Quality/PyDeequ Architecture.png"
   ]
 }

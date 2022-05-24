@@ -4,7 +4,7 @@ Data drift is unexpected and undocumented changes to data structure, semantics, 
 Oftentimes the distribution of data at time of training becomes obsolete by the time production is ready for data. As we stream new data checking for changes in the distribution of data is key to preventing performance failures in your machine learning pipeline. 
 
 ## Statistical Tests for Data Drift 
-- [[Kullback–Leibler divergence - Wikipedia]]
+- [[KL Divergence]]
 - [[Population Stability Index]]
 - [[Characteristic Stability Index]]
 
