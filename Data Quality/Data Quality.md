@@ -90,7 +90,8 @@ Define
 3. Do the benefits of boosting model performance outweigh the costs? 
 
 ### 3. Production Deployment and Ongoing Monitoring
-
+1. Check for data drift using statistical tests of PSI and CSI. 
+2. 
 
 ## Data Quality Tools 
 1. [[Deequ]] (And PyDeequ)
