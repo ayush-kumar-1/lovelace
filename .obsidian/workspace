@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "The Checklist Manifesto.md",
+            "file": "Data Quality/Data Quality.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 391
   },
   "right": {
     "id": "068a167cf4a25bcd",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "The Checklist Manifesto.md",
+                "file": "Data Quality/Data Quality.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
-    "The Checklist Manifesto.md",
     "Data Quality/Data Quality.md",
+    "Data Quality/Dimensions of Data Quality.png",
+    "Data Quality/Deequ.md",
+    "The Checklist Manifesto.md",
     "Checklist for Checklists.png",
     "Data Quality/Kolmogorov-Smirnov Test.md",
     "Data Quality/KL Divergence.md",
     "Data Quality/Data Drift.md",
     "Data Quality/Population Stability Index.md",
-    "Data Quality/Kullback–Leibler divergence - Wikipedia.md",
-    "Data Quality/Characteristic Stability Index.md",
-    "Data Quality/Data Augmentation.md"
+    "Data Quality/Kullback–Leibler divergence - Wikipedia.md"
   ]
 }
