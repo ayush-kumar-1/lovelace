@@ -22,6 +22,11 @@ Data quality has come into the forefront of the machine learning world with the 
 2. Preventing [[Data Drift]]
 
 See more data quality techniques at [NeurIPS Data-Centric AI Workshop (datacentricai.org)](https://datacentricai.org/neurips21/)
+
+Another idea for data quality comes from Timnit Gebru (former head Google's ethical AI division). 
+
+[DataSheets](https://arxiv.org/pdf/1803.09010.pdf)
+
 ***
 ## Data Quality Process 
 As data scientists we shouldn't leave things up to chance. This is why I am proposing a data quality checklist. In [[The Checklist Manifesto]], Atul Gawande lays out the case for checklists. We can define 3 parts to our data pipelines. 
@@ -80,9 +85,13 @@ Define
 
 #### Evaluations 
 1. Are there patterns in the underperformance in your model? 
+	a. Is there bias based on protected categories in your model? 
+	b. 
 2. How can we boost performance? Data augmentation, increased labeled data, training on similar dataset? 
 3. Do the benefits of boosting model performance outweigh the costs? 
-4. 
+
+### 3. Production Deployment and Ongoing Monitoring
+
 
 ## Data Quality Tools 
 1. [[Deequ]] (And PyDeequ)
