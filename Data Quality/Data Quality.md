@@ -26,6 +26,8 @@ See more data quality techniques at [NeurIPS Data-Centric AI Workshop (datacentr
 Another idea for data quality comes from Timnit Gebru (former head Google's ethical AI division). [DataSheets](https://arxiv.org/pdf/1803.09010.pdf)
 Datasheets replicate some of the data quality process, but are focused more towards academic or consumer collection settings. There are still some useful considerations present 
 
+More ideas of data quality are implemented by AWS Sagemaker. [[Detect Pretraining Data Bias]]
+
 ***
 ## Data Quality Process 
 As data scientists we shouldn't leave things up to chance. This is why I am proposing a data quality checklist. In [[The Checklist Manifesto]], Atul Gawande lays out the case for checklists. We can define 3 parts to our data pipelines. 
