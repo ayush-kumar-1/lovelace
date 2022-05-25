@@ -13,10 +13,11 @@ As data scientists we shouldn't leave things up to chance. This is why I am prop
 ### 1. Understand & Define
 The first step to ensuring proper data quality is to understand what the input data for a model is, and to define proper data quality for that feature. If we have tabular data we want to define the domain for a particular feature. 
 
-### All Data Types
+#### All Data Types
 1. What is the datatype? Image, text, Int, float, etc. 
 2. What is the data? Even if it seems obvious be precise and concise. 
 3. Where does the data come from? Accurate lineage is key to understanding problems later in the process. Did a vendor mess up? Is someone using an adversarial example to attack our system? 
+4. Is our data labeled accurately? How can we check this? 
 
 ### Tabular Data
 Define the following for each column (including response) 
@@ -30,6 +31,16 @@ Define the following for each column (including response)
 Define
 	1. Expected Language 
 	2. Needs spellchecking? 
+	3. Minimum/Maximum text length or token length
+	4. What constitutes a duplicate? Do we need fuzzy matching? 
+	5. How should text be cleaned? How do we know if text is clean? 
+
+#### Image Data 
+Define
+	1. What is expected image size? How will the system handle out-of-size images?
+	2. How do we check for duplicates in images? 
+
+
 
 ### 2. Check 
 Use a data quality tool to check these qualities before beginning with modeling. 
