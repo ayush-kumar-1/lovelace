@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Facet Imbalance.md",
+            "file": "Data Quality/KL Divergence.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Facet Imbalance.md",
+                "file": "Data Quality/KL Divergence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,11 +88,11 @@
   },
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
+    "Data Quality/KL Divergence.md",
     "Facet Imbalance.md",
     "Data Quality/Great Expectations.md",
     "Data Quality/Measuring Pretraining Bias.md",
     "Data Quality/Detect Pretraining Data Bias.md",
-    "Data Quality/KL Divergence.md",
     "Data Quality/Kolmogorov-Smirnov Test.md",
     "Data Quality/Kullback–Leibler divergence - Wikipedia.md",
     "Data Quality/Data Quality.md",
