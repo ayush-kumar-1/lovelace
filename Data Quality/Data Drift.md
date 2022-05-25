@@ -8,6 +8,7 @@ Oftentimes the distribution of data at time of training becomes obsolete by the 
 - [[Population Stability Index]]
 - [[Characteristic Stability Index]]
 - [[Kolmogorov-Smirnov Test]]
+- [[Bayesian Nonparametric Unsupervised Concept Drift Detection for Data Stream Mining|Unsupervised Drift Detection]]
 
 These are all related to one another, see [[KL Divergence]] for more details. I highly recommend using the PSI because of its known distribution at sufficiently large sample sized, due to the central limit theorem. 
 
