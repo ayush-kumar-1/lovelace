@@ -90,6 +90,7 @@
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
     "Data Quality/Data Quality.md",
+    "The Checklist Manifesto.md",
     "Data Quality/Data Drift.md",
     "Data Quality/Population Stability Index.md",
     "Data Quality/Kullback–Leibler divergence - Wikipedia.md",
@@ -97,7 +98,6 @@
     "Data Quality/Characteristic Stability Index.md",
     "Data Quality/Data Augmentation.md",
     "Look Into Later.md",
-    "Data Quality/KL Divergence.md",
-    "Data Quality/Great Expectations.md"
+    "Data Quality/KL Divergence.md"
   ]
 }

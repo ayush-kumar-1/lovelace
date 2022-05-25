@@ -1,4 +1,8 @@
 # Data Quality 
+## Why Data Quality?
+The field of machine learning is built upon the assumption that we can use examples to train statistical models to pick up on patterns. If patterns within the data a
+
+## What is Data Quality?
 Ensuring the quality of data is key to ensuring model performance, preventing data drift, and creating interpretability. 
 
 ![[Dimensions of Data Quality.png]]
