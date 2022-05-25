@@ -24,7 +24,18 @@ Define the following for each column (including response)
 	2. Domain - be as narrow as possible. For categorical variables this will be a set, for continuous this will be a range.  
 	3. Null behavior? - allowed? how to handle imputation? 
 	4. What constitutes and outlier? How should outliers be handled? 
-	5. What constitutes a duplicate? For longitudinal data we expect multiple observations for a product SKU and/or vendor ID, but not a combination of 3 on the same day. The same may not be true for a different application. We 
+	5. Experimental Unit - What constitutes a duplicate? For longitudinal data we expect multiple observations for a product SKU and/or vendor ID, but not a combination of 3 on the same day. The same may not be true for a different application. 
+
+#### Text Data (NLP Tasks)
+Define
+	1. Expected Language 
+	2. Needs spellchecking? 
+
+### 2. Check 
+Use a data quality tool to check these qualities before beginning with modeling. 
+
+### Model Assumptions
+What constitutes model success? 
 
 ## Data Quality Tools 
 1. [[Deequ]] (And PyDeequ)
