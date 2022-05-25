@@ -8,6 +8,8 @@ Oftentimes the distribution of data at time of training becomes obsolete by the 
 - [[Population Stability Index]]
 - [[Characteristic Stability Index]]
 
+These are all related to one another, see [[KL Divergence]] for more details. I highly recommend using the PSI because of its known distribution at sufficiently large sample sized, due to the central limit theorem. 
+
 ## What is Data Drift? 
 In supervised and semi-supervised settings we assume that the each pair of observations $(x, y)$ are drawn independently from the same joint distribution $p(x,y)$. As our data begins to diverge from this distribution we arrive in a scenario where our key model assumptions do not hold. Ensuring proper data quality means making sure our data satisfies the assumptions of our model. Model assumptions can vary widely, data can range from images, text, tabular, to complicated graph structures. Detecting drift can become a complicated problem that should be addressed before the first model is built. 
 
