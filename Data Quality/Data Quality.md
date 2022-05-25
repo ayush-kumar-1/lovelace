@@ -10,6 +10,7 @@ Andrew Ng posits that we spend nearly 80% of our time on data preparation, so we
 	1. Improves model performance and assessment capabilities 
 	2. Leverages an organizations' existing small datasets and domain expertise 
 	3. Allows for implementation of more parsimonious (smaller) models potentially yielding greater interpretability 
+	4. Improves data governance - make sure your data is ethical and unbiased
 
 ## What is Data Quality?
 Ensuring the quality of data is key to ensuring model performance, preventing data drift, and creating interpretability. 
@@ -19,6 +20,8 @@ Ensuring the quality of data is key to ensuring model performance, preventing da
 Data quality has come into the forefront of the machine learning world with the rise of the [data-centric ai](https://datacentricai.org/) movement. Some examples of data-centric AI includes: 
 1. [[Data Augmentation]]
 2. Preventing [[Data Drift]]
+
+See more data quality techniques at [NeurIPS Data-Centric AI Workshop (datacentricai.org)](https://datacentricai.org/neurips21/)
 ***
 ## Data Quality Process 
 As data scientists we shouldn't leave things up to chance. This is why I am proposing a data quality checklist. In [[The Checklist Manifesto]], Atul Gawande lays out the case for checklists. We can define 3 parts to our data pipelines. 
@@ -34,7 +37,7 @@ The first step to ensuring proper data quality is to understand what the input d
 2. What is the data? Even if it seems obvious be precise and concise. 
 3. Where does the data come from? Accurate lineage is key to understanding problems later in the process. Did a vendor mess up? Is someone using an adversarial example to attack our system? 
 4. Is our data labeled accurately? How can we check this? 
-	a. [CleanLab| Labeling Erro](https://github.com/cleanlab/label-errors)
+	a. [CleanLab| Labeling Errors](https://github.com/cleanlab/label-errors)
 5. How much data do we need? Do we have a sufficient amount of data for the task? 
 
 #### Tabular Data
@@ -76,7 +79,10 @@ Define
 		 c. Can this model handle class imbalance? 
 
 #### Evaluations 
-Does your model 
+1. Are there patterns in the underperformance in your model? 
+2. How can we boost performance? Data augmentation, increased labeled data, training on similar dataset? 
+3. Do the benefits of boosting model performance outweigh the costs? 
+4. 
 
 ## Data Quality Tools 
 1. [[Deequ]] (And PyDeequ)
