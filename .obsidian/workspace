@@ -7,12 +7,8 @@
         "id": "333480997ae2c1d4",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Data Quality/Data Quality.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Quality/Data Quality.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +83,8 @@
   },
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
+    "GRE Prep.md",
+    "The Checklist Manifesto.md",
     "Data Quality/Data Quality.md",
     "Data Quality/KL Divergence.md",
     "Facet Imbalance.md",
@@ -95,8 +92,6 @@
     "Data Quality/Measuring Pretraining Bias.md",
     "Data Quality/Detect Pretraining Data Bias.md",
     "Data Quality/Kolmogorov-Smirnov Test.md",
-    "Data Quality/Kullback–Leibler divergence - Wikipedia.md",
-    "Data Quality/Bayesian Nonparametric Unsupervised Concept Drift Detection for Data Stream Mining.md",
-    "Data Quality/Data Augmentation.md"
+    "Data Quality/Kullback–Leibler divergence - Wikipedia.md"
   ]
 }
