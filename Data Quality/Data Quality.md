@@ -34,6 +34,7 @@ The first step to ensuring proper data quality is to understand what the input d
 2. What is the data? Even if it seems obvious be precise and concise. 
 3. Where does the data come from? Accurate lineage is key to understanding problems later in the process. Did a vendor mess up? Is someone using an adversarial example to attack our system? 
 4. Is our data labeled accurately? How can we check this? 
+	a. [CleanLab| Labeling Erro](https://github.com/cleanlab/label-errors)
 5. How much data do we need? Do we have a sufficient amount of data for the task? 
 
 #### Tabular Data
@@ -63,10 +64,19 @@ Define
 	4. What luminosity do we expect? 
 	5. Is the image sharp enough? 
 
+### 2. Modeling
+#### Assumptions
+Define
+	1. Task - Classification, Regression, Image Segmentation, Sentiment Polarity, etc. 
+	2. Stakes - When is it most important to be correct? When is it ok to be sacrifice performance? 
+		a. It may be more important to ensure adequate transportation for a supply chain, than it is to ensure only full trucks are shipping. Think about the tradeoff between precision & recall, or between Type I and Type II errors 
+	 3. Distributional Assumptions 
+		 a. Does this particular model expect data from a certain distribution? i.e. Normal, Poisson, etc. 
+		 b. Will the model be used for extrapolation or interpolation? Does the model suit these tasks? i.e. Gradient Boosting without tuning typically underperforms when it comes to extrapolation 
+		 c. Can this model handle class imbalance? 
 
-
-### Model Assumptions
-What constitutes model success? 
+#### Evaluations 
+Does your model 
 
 ## Data Quality Tools 
 1. [[Deequ]] (And PyDeequ)
