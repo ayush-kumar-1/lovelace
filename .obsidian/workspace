@@ -89,14 +89,14 @@
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
     "Data Quality/Data Quality.md",
+    "Data Quality/Deequ.md",
+    "Data Quality/Dimensions of Data Quality.png",
+    "Data Quality/Example of Feature Drift.png",
+    "Data Quality/Great Expectations.md",
+    "Data Quality/KL Divergence.md",
     "Data Quality/Characteristic Stability Index.md",
     "Data Quality/Data Augmentation.md",
-    "Data Quality/Example of Feature Drift.png",
     "Data Quality/Data Drift.md",
-    "Data Quality/Great Expectations.md",
-    "The Checklist Manifesto.md",
-    "Checklist for Checklists.png",
-    "Data Quality/Population Stability Index.md",
-    "Data Quality/Dimensions of Data Quality.png"
+    "The Checklist Manifesto.md"
   ]
 }
