@@ -70,8 +70,8 @@
               "type": "backlink",
               "state": {
                 "file": "Data Quality/Data Quality.md",
-                "collapseAll": false,
-                "extraContext": false,
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -84,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [

@@ -2,9 +2,14 @@
 ## Why Data Quality?
 The field of machine learning is built upon the assumption that we can use examples to train statistical models to pick up on patterns. If patterns within the data are unclear, or a product of pure randomness then our models are useless. Real-world data is messy, and the signals we want to pick up are confounded in our data. Poor data quality will only add to this problem. The latest deep learning architecture may offer a marginal improvement in signal processing capability, but oftentimes at the cost of computationally complexity and loss of explainability. 
 
+[Andrew Ng Launches A Campaign For Data-Centric AI (forbes.com)](https://www.forbes.com/sites/gilpress/2021/06/16/andrew-ng-launches-a-campaign-for-data-centric-ai/?sh=7e91c92a74f5)
+
 >“The model and the code for many applications are basically a solved problem, Now that the models have advanced to a certain point, we got to make the data work as well.” - Andrew Ng
 
-Andrew Ng posits that we spend nearly 80% of our time on data preparation, so we should spend 80% of our modeling efforts on boosting data quality. Domain expertise is cheaper than Machine Learning expertise, and therefore most practitioners have a much better understanding of the data vs. the SOTA algorithm. Leveraging the available expertise is more efficient way to make models better. 
+Andrew Ng posits that we spend nearly 80% of our time on data preparation, so we should spend 80% of our modeling efforts on boosting data quality. Domain expertise is cheaper than Machine Learning expertise, and therefore most practitioners have a much better understanding of the data vs. the SOTA algorithm. Leveraging the available expertise is a more efficient way to make models better. In short better data quality
+	1. Improves model performance and assessment capabilities 
+	2. Leverages an organizations' existing small datasets and domain expertise 
+	3. Allows for implementation of more parsimonious (smaller) models potentially yielding greater interpretability 
 
 ## What is Data Quality?
 Ensuring the quality of data is key to ensuring model performance, preventing data drift, and creating interpretability. 
