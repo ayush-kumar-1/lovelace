@@ -23,9 +23,8 @@ Data quality has come into the forefront of the machine learning world with the 
 
 See more data quality techniques at [NeurIPS Data-Centric AI Workshop (datacentricai.org)](https://datacentricai.org/neurips21/)
 
-Another idea for data quality comes from Timnit Gebru (former head Google's ethical AI division). 
-
-[DataSheets](https://arxiv.org/pdf/1803.09010.pdf)
+Another idea for data quality comes from Timnit Gebru (former head Google's ethical AI division). [DataSheets](https://arxiv.org/pdf/1803.09010.pdf)
+Datasheets replicate some of the data quality process, but are focused more towards academic or consumer collection settings. There are still some useful considerations present 
 
 ***
 ## Data Quality Process 
