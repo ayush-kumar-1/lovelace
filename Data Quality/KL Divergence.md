@@ -67,6 +67,40 @@ def smoothed_empirical_cdf(data: np.ndarray, x:float):
 ```
 
 Once we have the empirical CDF we can define our estimator as 
-$$\hat D(P||Q) = \frac 1 n \sum_{i=1}^n\log\frac{\delta P_c(x_i)}{\delta Q_c(x_i)}$$
-where $Q_c$ is the stepwise approximation of the empirical CDF for the distribution to be compared. 
+$$\hat D(P||Q) = \frac 1 n \sum_{i=1}^n\log\frac{\delta P_c(x_i)}{\delta Q_c(x_i)} - 1$$
+where $Q_c$ is the stepwise approximation of the empirical CDF for the distribution to be compared. And 
+$$\delta P_c(x_i) = P_c(x_i) - P_c(x_i - \epsilon); \text{ for any } \epsilon < \text{min}_i\{x_i - x_{i-1}\}$$
+This gives us the final portion of the needed python code. 
+```python
+def empirical_pdf(data: np.ndarray, x: float, epsilon = 1e-8): 
+    """
+    Finds the empirical derivative from the empirical cdf
+    as P(x_i) - P(x_{i-1})/(x_i - x_{i-1}) where x is the 
+    sorted array of empirical data. 
+    """
+    #check if data is sorted 
+    
+    return smoothed_empirical_cdf(data, x)-smoothed_empirical_cdf(data, x-epsilon)
 
+def kl_div(p: np.ndarray, q: np.ndarray): 
+    """
+    https://www.tsc.uc3m.es/~fernando/bare_conf3.pdf
+    """
+    p = np.sort(p)
+    q = np.sort(q)
+    
+    delta_p = np.array([empirical_pdf(p, x) for x in p])
+    delta_q = np.array([empirical_pdf(q, x) for x in p])
+    
+    with np.errstate(divide = 'ignore'): 
+        arg = delta_p/delta_q
+        arg = np.log2(arg)
+        
+        arg[delta_p == 0] = 0
+        arg[delta_q == 0] = 0 
+    
+    kl = arg.sum()
+    return arg.sum()/p.size
+```
+
+Empirical testing showed very unstable behavior unless sample sizes were sufficiently large. $N_p > 1000, N_q > 1000$. For continuous distributions I recommend the [[Kolmogorov-Smirnov Test]]. 
