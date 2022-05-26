@@ -69,4 +69,19 @@ The objective of datasheets for datasets is to address the needs of dataset crea
 - Any other comments? 
 
 ### Distribution 
-Will the dataset be distribute
+- Will the dataset be distributed to third parties outside of the entity on behalf of which the dataset was created? 
+- How will the dataset be distributed? (tarball, api, github, database)
+- When will the dataset be distributed? 
+- Will the dataset be distributed under a copyright or other intellectual property (IP) license, and/or under applicable terms of use (TOU). 
+- Have any third parties imposes IP-based or other restrictions on the data associated with the instances? 
+- Do any export controls or other regulatory restrictions apply to the dataset or the individual instances? 
+- Any other comments? 
+
+### Maintenance 
+- Who will be supporting/hosting/maintaining the dataset? 
+- How can the owner/curator/manager of the dataset be contacted (e.g. email address)? 
+- Is there an erratum? 
+- Will the dataset be updated (e.g. to correct labeling errors, add new instances, delete instances)? 
+- If the dataset relates to people, are there applicable limits on the retention of the data associated with the instances? 
+- Will older versions of the dataset continue to be supported/hosted/maintained? 
+- Any other comments? 

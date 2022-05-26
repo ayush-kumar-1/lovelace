@@ -24,7 +24,7 @@ Data quality has come into the forefront of the machine learning world with the 
 See more data quality techniques at [NeurIPS Data-Centric AI Workshop (datacentricai.org)](https://datacentricai.org/neurips21/)
 
 Another idea for data quality comes from Timnit Gebru (former head Google's ethical AI division). [DataSheets](https://arxiv.org/pdf/1803.09010.pdf)
-Datasheets replicate some of the data quality process, but are focused more towards academic or consumer collection settings. There are still some useful considerations present in [[DataSheets for DataSets]]. 
+Datasheets replicate some of the data quality process, but are focused more towards academic or consumer collection settings. There are still some useful considerations present in [[Datasheets for DataSets]]. 
 
 
 More ideas of data quality are implemented by AWS Sagemaker. [[Detect Pretraining Data Bias]]
@@ -88,13 +88,11 @@ Define
 #### Evaluations 
 1. Are there patterns in the underperformance in your model? 
 	a. Is there bias based on protected categories in your model? 
-	b. 
 2. How can we boost performance? Data augmentation, increased labeled data, training on similar dataset? 
 3. Do the benefits of boosting model performance outweigh the costs? 
 
 ### 3. Production Deployment and Ongoing Monitoring
 1. Check for data drift using statistical tests of PSI and CSI. 
-2. 
 
 ## Data Quality Tools 
 1. [[Deequ]] (And PyDeequ)
