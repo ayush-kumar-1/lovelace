@@ -79,19 +79,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
+    "Data Quality/Characteristic Stability Index.md",
+    "Data Quality/Data Augmentation.md",
+    "Data Quality/Bayesian Nonparametric Unsupervised Concept Drift Detection for Data Stream Mining.md",
     "GRE Prep.md",
     "The Checklist Manifesto.md",
     "Data Quality/Data Quality.md",
     "Data Quality/KL Divergence.md",
     "Facet Imbalance.md",
     "Data Quality/Great Expectations.md",
-    "Data Quality/Measuring Pretraining Bias.md",
-    "Data Quality/Detect Pretraining Data Bias.md",
-    "Data Quality/Kolmogorov-Smirnov Test.md",
-    "Data Quality/Kullback–Leibler divergence - Wikipedia.md"
+    "Data Quality/Measuring Pretraining Bias.md"
   ]
 }
