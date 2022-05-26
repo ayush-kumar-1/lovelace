@@ -7,8 +7,12 @@
         "id": "333480997ae2c1d4",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Data Quality/KL Divergence.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Data Quality/KL Divergence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,13 +89,13 @@
   },
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
+    "Data Quality/KL Divergence.md",
     "Data Quality/Characteristic Stability Index.md",
     "Data Quality/Data Augmentation.md",
     "Data Quality/Bayesian Nonparametric Unsupervised Concept Drift Detection for Data Stream Mining.md",
     "GRE Prep.md",
     "The Checklist Manifesto.md",
     "Data Quality/Data Quality.md",
-    "Data Quality/KL Divergence.md",
     "Facet Imbalance.md",
     "Data Quality/Great Expectations.md",
     "Data Quality/Measuring Pretraining Bias.md"
