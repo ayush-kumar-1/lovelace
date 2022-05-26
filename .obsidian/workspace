@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DataSheets for DataSets.md",
+            "file": "Data Quality/DataSheets for DataSets.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DataSheets for DataSets.md",
+                "file": "Data Quality/DataSheets for DataSets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
-    "DataSheets for DataSets.md",
-    "Data Quality/Data Quality.md",
-    "Data Quality/Great Expectations.md",
+    "Data Quality/DataSheets for DataSets.md",
     "Data Quality/Kolmogorov-Smirnov Test.md",
     "Data Quality/Kullback–Leibler divergence - Wikipedia.md",
-    "Data Quality/Detect Pretraining Data Bias.md",
-    "Data Quality/KL Divergence.md",
+    "Data Quality/Measuring Pretraining Bias.md",
+    "Data Quality/Population Stability Index.md",
+    "Data Quality/PyDeequ Architecture.png",
+    "Data Quality/Bayesian Nonparametric Unsupervised Concept Drift Detection for Data Stream Mining.md",
     "Data Quality/Characteristic Stability Index.md",
     "Data Quality/Data Augmentation.md",
-    "Data Quality/Bayesian Nonparametric Unsupervised Concept Drift Detection for Data Stream Mining.md"
+    "Data Quality/Data Quality.md"
   ]
 }

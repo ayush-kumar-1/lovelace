@@ -50,3 +50,23 @@ The objective of datasheets for datasets is to address the needs of dataset crea
 - Were any ethical review processes conducted? 
 - Does the dataset relate to people? 
 	- Did you collect the data from the individuals directly, or obtain it via third parties or other sources? 
+	- Were the individuals notified about the data collection? 
+	- Did the individuals consent to the collection and use of their data? 
+	- If consent was obtained, were the consenting individuals provided with a mechanism to revoke their consent in the future or for certain uses? 
+	- Has an analysis of the potential impact of the dataset and its use on data subjects been conducted? 
+- Any other comments? 
+### Preprocessing/Cleaning/Labeling
+- Was any preprocessing/cleaning/labeling of the data done? 
+- Was the raw data saved in addition to the clean data? (to support unanticipated future uses)
+- Is the software used to clean the instances available? 
+- Any other comments? 
+
+### Uses
+- Has the dataset been used for any tasks already? 
+- Is there a repository that links to any or all papers or systems that use the dataset? 
+- What (other) tasks could the dataset be used for? 
+- Is there anything about he composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses? 
+- Any other comments? 
+
+### Distribution 
+Will the dataset be distribute
