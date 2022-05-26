@@ -24,4 +24,29 @@ The objective of datasheets for datasets is to address the needs of dataset crea
 - What does each instance consist of? Raw data? Features? 
 - Is there a label or target associated with each instance? 
 - Is any information missing for individual instances? 
-- 
+- Are relationships between individual instances made explicit? How so? 
+- Are there recommended data splits? (training, development/validation, testing)? Why so? 
+- Are there any errors, sources of noise, or redundancies in the dataset? How do we know? 
+- Is the dataset self-contained, or does it link to or otherwise rely on external sources? 
+	a) If so, are there guarantees that they will exist, and remain constant, over time? 
+	b) are there official archival versions of the complete dataset? 
+	c) are there restrictions associated with any of the external resources that might apply to a future user? 
+	d) provide links and access instructions to external resources 
+
+- Does the dataset contain data that might be considered confidential? 
+- Does the dataset contain data that if viewed directly, might be offensive, insulting, threatening, or might otherwise cause anxiety? 
+- Does the dataset relate to people? If yes, answer the following 
+	- Does the dataset identify any subpopulations? 
+	- Is it possible to identify individuals, either directly or indirectly? 
+	- Does the dataset contain data that might considered sensitive in any way? 
+- Any other comments? 
+
+### Collection Process 
+- How was the data associated with each instance acquired? 
+- What mechanisms or procedures were used to collect the data? How are these mechanisms validated? 
+- If the dataset is a sample from a larger set what was the sampling strategy? 
+- Who was involved in the data collection process and how were they compensated? 
+- Over what timeframe was the data collected? 
+- Were any ethical review processes conducted? 
+- Does the dataset relate to people? 
+	- Did you collect the data from the individuals directly, or obtain it via third parties or other sources? 
