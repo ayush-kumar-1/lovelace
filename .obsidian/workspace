@@ -7,9 +7,11 @@
         "id": "333480997ae2c1d4",
         "type": "leaf",
         "state": {
-          "type": "image",
+          "type": "markdown",
           "state": {
-            "file": "Checklist for Checklists.png"
+            "file": "Data Quality/Bayesian Nonparametric Unsupervised Concept Drift Detection for Data Stream Mining.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -67,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Checklist for Checklists.png",
+                "file": "Data Quality/Bayesian Nonparametric Unsupervised Concept Drift Detection for Data Stream Mining.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,15 +89,15 @@
   },
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
+    "Data Quality/Bayesian Nonparametric Unsupervised Concept Drift Detection for Data Stream Mining.md",
+    "Data Quality/Datasheets for DataSets.md",
+    "Data Quality/Data Quality.md",
+    "Data Quality/Facet Imbalance.md",
     "Checklist for Checklists.png",
     "Natural Language Processing/Comments & Recommendations from Jamell.md",
-    "Data Quality/Data Quality.md",
-    "Data Quality/Datasheets for DataSets.md",
     "Data Quality/Great Expectations.md",
-    "Data Quality/Facet Imbalance.md",
     "Data Quality/Data Drift.md",
     "Data Quality/Kolmogorov-Smirnov Test.md",
-    "Data Quality/Kullback–Leibler divergence - Wikipedia.md",
-    "Data Quality/Measuring Pretraining Bias.md"
+    "Data Quality/Kullback–Leibler divergence - Wikipedia.md"
   ]
 }
