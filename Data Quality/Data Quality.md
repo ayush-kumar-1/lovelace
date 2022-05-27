@@ -26,7 +26,6 @@ See more data quality techniques at [NeurIPS Data-Centric AI Workshop (datacentr
 Another idea for data quality comes from Timnit Gebru (former head Google's ethical AI division). [DataSheets](https://arxiv.org/pdf/1803.09010.pdf)
 Datasheets replicate some of the data quality process, but are focused more towards academic or consumer collection settings. There are still some useful considerations present in [[Datasheets for DataSets]]. 
 
-
 More ideas of data quality are implemented by AWS Sagemaker. [[Detect Pretraining Data Bias]]
 
 ***
@@ -43,7 +42,7 @@ The first step to ensuring proper data quality is to understand what the input d
 1. What is the datatype? Image, text, integer, float, etc. 
 2. What is the data? Even if it seems obvious be precise and concise. 
 3. Where does the data come from? Accurate lineage is key to understanding problems later in the process. Did a vendor mess up? Is someone using an adversarial example to attack our system? 
-4. Is our data labeled accurately? How can we check this? 
+4. Is our data labeled accurately? How can we check this? [[CleanLab]]
 	a. [CleanLab| Labeling Errors](https://github.com/cleanlab/label-errors)
 5. How much data do we need? Do we have a sufficient amount of data for the task? 
 

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CleanLab.md",
+            "file": "Data Quality/Data Quality.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CleanLab.md",
+                "file": "Data Quality/Data Quality.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
-    "CleanLab.md",
     "Data Quality/Data Quality.md",
+    "Data Quality/Datasheets for DataSets.md",
+    "CleanLab.md",
     "Images/Dimensions of Data Quality.png",
     "Images.md",
     "Images/Kolmogorov Distribution.png",
     "Data Quality/Pervasive Label Errors in Test Sets Destablize ML Benchmarks.md",
     "Data Quality/Two-sample Bayesian Nonparametric Hypothesis Testing.md",
     "Data Quality/Bayesian Nonparametric Unsupervised Concept Drift Detection for Data Stream Mining.md",
-    "Data Quality/Datasheets for DataSets.md",
     "Data Quality/Facet Imbalance.md"
   ]
 }
