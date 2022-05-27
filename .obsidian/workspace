@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Data Quality/Bayesian Nonparametric Unsupervised Concept Drift Detection for Data Stream Mining.md",
+            "file": "Two-sample Bayesian Nonparametric Hypothesis Testing.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Quality/Bayesian Nonparametric Unsupervised Concept Drift Detection for Data Stream Mining.md",
+                "file": "Two-sample Bayesian Nonparametric Hypothesis Testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
+    "Two-sample Bayesian Nonparametric Hypothesis Testing.md",
     "Data Quality/Bayesian Nonparametric Unsupervised Concept Drift Detection for Data Stream Mining.md",
     "Data Quality/Datasheets for DataSets.md",
     "Data Quality/Data Quality.md",
@@ -97,7 +98,6 @@
     "Natural Language Processing/Comments & Recommendations from Jamell.md",
     "Data Quality/Great Expectations.md",
     "Data Quality/Data Drift.md",
-    "Data Quality/Kolmogorov-Smirnov Test.md",
-    "Data Quality/Kullback–Leibler divergence - Wikipedia.md"
+    "Data Quality/Kolmogorov-Smirnov Test.md"
   ]
 }
