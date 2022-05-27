@@ -90,14 +90,14 @@
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
     "Bayesian Nonparametrics.md",
-    "Images/Checklist for Checklists.png",
     "Data Quality/Data Quality.md",
+    "Data Quality/Bayesian Nonparametric Unsupervised Concept Drift Detection for Data Stream Mining.md",
+    "Images/Checklist for Checklists.png",
     "Data Quality/Great Expectations.md",
     "Data Quality/KL Divergence.md",
     "Images/Traditional MLOps Diagram.png",
     "Images/Surgical Safety Checklist.jpg",
     "Images/Kolmogorov Distribution.png",
-    "Images/Example of Feature Drift.png",
-    "Data Quality/Datasheets for DataSets.md"
+    "Images/Example of Feature Drift.png"
   ]
 }
