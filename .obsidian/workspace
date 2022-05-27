@@ -7,9 +7,11 @@
         "id": "333480997ae2c1d4",
         "type": "leaf",
         "state": {
-          "type": "image",
+          "type": "markdown",
           "state": {
-            "file": "Images/Traditional MLOps Diagram.png"
+            "file": "Data Quality/Data Quality.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -67,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Images/Traditional MLOps Diagram.png",
+                "file": "Data Quality/Data Quality.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,15 +89,15 @@
   },
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
+    "Data Quality/Data Quality.md",
+    "Data Quality/Great Expectations.md",
+    "Data Quality/KL Divergence.md",
     "Images/Traditional MLOps Diagram.png",
     "Images/Surgical Safety Checklist.jpg",
     "Images/Kolmogorov Distribution.png",
     "Images/Example of Feature Drift.png",
-    "Data Quality/Data Quality.md",
     "Data Quality/Datasheets for DataSets.md",
     "CleanLab.md",
-    "Images/Dimensions of Data Quality.png",
-    "Images.md",
-    "Data Quality/Pervasive Label Errors in Test Sets Destablize ML Benchmarks.md"
+    "Images/Dimensions of Data Quality.png"
   ]
 }
