@@ -4,3 +4,4 @@ There are 4 primary branches in statistics stemming from a combination of bayesi
 ## Resources 
 [MATLAB Implementation of Two-Sample PT Test](https://www.stats.ox.ac.uk/~caron/code/polyatreetest/index.html)
 [Tutorials on Bayesian Nonparametrics](http://www.gatsby.ucl.ac.uk/~porbanz/npb-tutorial.html)
+[PyMC - Python for Bayesian Stats](https://docs.pymc.io/en/latest/index.html)
