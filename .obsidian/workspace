@@ -7,11 +7,9 @@
         "id": "333480997ae2c1d4",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "Data Quality/Data Quality.md",
-            "mode": "source",
-            "source": false
+            "file": "Images/Traditional MLOps Diagram.png"
           }
         }
       }
@@ -69,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Quality/Data Quality.md",
+                "file": "Images/Traditional MLOps Diagram.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +87,15 @@
   },
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
+    "Images/Traditional MLOps Diagram.png",
+    "Images/Surgical Safety Checklist.jpg",
+    "Images/Kolmogorov Distribution.png",
+    "Images/Example of Feature Drift.png",
     "Data Quality/Data Quality.md",
     "Data Quality/Datasheets for DataSets.md",
     "CleanLab.md",
     "Images/Dimensions of Data Quality.png",
     "Images.md",
-    "Images/Kolmogorov Distribution.png",
-    "Data Quality/Pervasive Label Errors in Test Sets Destablize ML Benchmarks.md",
-    "Data Quality/Two-sample Bayesian Nonparametric Hypothesis Testing.md",
-    "Data Quality/Bayesian Nonparametric Unsupervised Concept Drift Detection for Data Stream Mining.md",
-    "Data Quality/Facet Imbalance.md"
+    "Data Quality/Pervasive Label Errors in Test Sets Destablize ML Benchmarks.md"
   ]
 }
