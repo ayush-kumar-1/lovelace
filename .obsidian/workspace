@@ -90,6 +90,7 @@
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
     "Bayesian Nonparametrics.md",
+    "Images/Checklist for Checklists.png",
     "Data Quality/Data Quality.md",
     "Data Quality/Great Expectations.md",
     "Data Quality/KL Divergence.md",
@@ -97,7 +98,6 @@
     "Images/Surgical Safety Checklist.jpg",
     "Images/Kolmogorov Distribution.png",
     "Images/Example of Feature Drift.png",
-    "Data Quality/Datasheets for DataSets.md",
-    "CleanLab.md"
+    "Data Quality/Datasheets for DataSets.md"
   ]
 }
