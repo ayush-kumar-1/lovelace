@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Data Quality/Data Quality.md",
+            "file": "The Checklist Manifesto.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Quality/Data Quality.md",
+                "file": "The Checklist Manifesto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
-    "Data Quality/Data Quality.md",
-    "Data Quality/Datasheets for DataSets.md",
-    "Data Quality/Pervasive Label Errors in Test Sets Destablize ML Benchmarks.md",
-    "CleanLab.md",
-    "Data Quality/Great Expectations.md",
-    "Data Quality/Deequ.md",
-    "Data Quality/Data Drift.md",
-    "Data Quality/Data Augmentation.md",
-    "Data Quality/Characteristic Stability Index.md",
-    "Images/Kolmogorov Distribution.png"
+    "The Checklist Manifesto.md",
+    "Research and Publishing.md",
+    "Look Into Later.md",
+    "Cyberbullying Project/HateBERT.md",
+    "Cyberbullying Project/Data_Science_Capstone_Project_Final_Report.pdf",
+    "Cyberbullying Project/Comments & Recommendations from Jamell.md",
+    "Data Quality/Bayesian Nonparametric Unsupervised Concept Drift Detection for Data Stream Mining.md",
+    "Data Quality/Two-sample Bayesian Nonparametric Hypothesis Testing.md",
+    "Data Quality/Population Stability Index.md",
+    "Data Quality/Pervasive Label Errors in Test Sets Destablize ML Benchmarks.md"
   ]
 }
