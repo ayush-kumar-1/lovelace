@@ -7,11 +7,9 @@
         "id": "333480997ae2c1d4",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "Data Quality/Data Quality.md",
-            "mode": "source",
-            "source": false
+            "file": "Images/Dimensions of Data Quality.png"
           }
         }
       }
@@ -69,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Quality/Data Quality.md",
+                "file": "Images/Dimensions of Data Quality.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +87,7 @@
   },
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
+    "Images/Dimensions of Data Quality.png",
     "Data Quality/Data Quality.md",
     "Data Quality/Data Drift.md",
     "Data Quality/Data Augmentation.md",
@@ -97,7 +96,6 @@
     "Data Quality/Datasheets for DataSets.md",
     "Data Quality/Kullback–Leibler divergence - Wikipedia.md",
     "Data Quality/Measuring Pretraining Bias.md",
-    "Data Quality/Pervasive Label Errors in Test Sets Destablize ML Benchmarks.md",
-    "Bayesian Nonparametrics.md"
+    "Data Quality/Pervasive Label Errors in Test Sets Destablize ML Benchmarks.md"
   ]
 }
