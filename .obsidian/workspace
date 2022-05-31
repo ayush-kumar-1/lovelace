@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Data Quality/Detect Pretraining Data Bias.md",
+            "file": "Data Quality/Facet Imbalance.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Quality/Detect Pretraining Data Bias.md",
+                "file": "Data Quality/Facet Imbalance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
+    "Data Quality/Facet Imbalance.md",
     "Data Quality/Detect Pretraining Data Bias.md",
     "The Checklist Manifesto.md",
     "Research and Publishing.md",
@@ -97,7 +98,6 @@
     "Cyberbullying Project/Data_Science_Capstone_Project_Final_Report.pdf",
     "Cyberbullying Project/Comments & Recommendations from Jamell.md",
     "Data Quality/Bayesian Nonparametric Unsupervised Concept Drift Detection for Data Stream Mining.md",
-    "Data Quality/Two-sample Bayesian Nonparametric Hypothesis Testing.md",
-    "Data Quality/Population Stability Index.md"
+    "Data Quality/Two-sample Bayesian Nonparametric Hypothesis Testing.md"
   ]
 }
