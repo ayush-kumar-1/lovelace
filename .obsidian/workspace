@@ -7,9 +7,11 @@
         "id": "333480997ae2c1d4",
         "type": "leaf",
         "state": {
-          "type": "image",
+          "type": "markdown",
           "state": {
-            "file": "Images/Dimensions of Data Quality.png"
+            "file": "Data Quality/Data Quality.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -67,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Images/Dimensions of Data Quality.png",
+                "file": "Data Quality/Data Quality.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,15 +89,15 @@
   },
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
-    "Images/Dimensions of Data Quality.png",
     "Data Quality/Data Quality.md",
-    "Data Quality/Data Drift.md",
-    "Data Quality/Data Augmentation.md",
-    "Data Quality/Detect Pretraining Data Bias.md",
     "Data Quality/Deequ.md",
     "Data Quality/Datasheets for DataSets.md",
-    "Data Quality/Kullback–Leibler divergence - Wikipedia.md",
-    "Data Quality/Measuring Pretraining Bias.md",
-    "Data Quality/Pervasive Label Errors in Test Sets Destablize ML Benchmarks.md"
+    "Data Quality/Data Drift.md",
+    "Data Quality/Data Augmentation.md",
+    "Data Quality/Characteristic Stability Index.md",
+    "Images/Kolmogorov Distribution.png",
+    "Images/PyDeequ Architecture.png",
+    "Images/Dimensions of Data Quality.png",
+    "Data Quality/Detect Pretraining Data Bias.md"
   ]
 }
