@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Data Quality/Facet Imbalance.md",
+            "file": "Data Quality/Data Drift.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Quality/Facet Imbalance.md",
+                "file": "Data Quality/Data Drift.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
+    "Data Quality/Data Drift.md",
+    "Data Quality/Data Quality.md",
+    "Data Quality/Pervasive Label Errors in Test Sets Destablize ML Benchmarks.md",
+    "Data Quality/Two-sample Bayesian Nonparametric Hypothesis Testing.md",
     "Data Quality/Facet Imbalance.md",
     "Data Quality/Detect Pretraining Data Bias.md",
     "The Checklist Manifesto.md",
     "Research and Publishing.md",
     "Look Into Later.md",
-    "Cyberbullying Project/HateBERT.md",
-    "Cyberbullying Project/Data_Science_Capstone_Project_Final_Report.pdf",
-    "Cyberbullying Project/Comments & Recommendations from Jamell.md",
-    "Data Quality/Bayesian Nonparametric Unsupervised Concept Drift Detection for Data Stream Mining.md",
-    "Data Quality/Two-sample Bayesian Nonparametric Hypothesis Testing.md"
+    "Cyberbullying Project/HateBERT.md"
   ]
 }
