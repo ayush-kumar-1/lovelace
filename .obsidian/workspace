@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Data Quality/Kolmogorov-Smirnov Test.md",
+            "file": "Data Quality/KL Divergence.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Quality/Kolmogorov-Smirnov Test.md",
+                "file": "Data Quality/KL Divergence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
+    "Data Quality/KL Divergence.md",
     "Data Quality/Kolmogorov-Smirnov Test.md",
     "Data Quality/Data Drift.md",
     "Data Quality/Data Quality.md",
@@ -97,7 +98,6 @@
     "Data Quality/Facet Imbalance.md",
     "Data Quality/Detect Pretraining Data Bias.md",
     "The Checklist Manifesto.md",
-    "Research and Publishing.md",
-    "Look Into Later.md"
+    "Research and Publishing.md"
   ]
 }
