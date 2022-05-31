@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Research and Publishing.md",
+            "file": "Data Quality/Data Quality.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research and Publishing.md",
+                "file": "Data Quality/Data Quality.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
-    "Research and Publishing.md",
-    "Look Into Later.md",
-    "Natural Language Processing/Comments & Recommendations from Jamell.md",
-    "GRE Prep.md",
-    "Bayesian Nonparametrics.md",
-    "CleanLab.md",
     "Data Quality/Data Quality.md",
-    "Data Quality/Bayesian Nonparametric Unsupervised Concept Drift Detection for Data Stream Mining.md",
+    "Bayesian Nonparametrics.md",
     "Images/Checklist for Checklists.png",
-    "Data Quality/Great Expectations.md"
+    "Data Quality/Great Expectations.md",
+    "Data Quality/KL Divergence.md",
+    "Images/Traditional MLOps Diagram.png",
+    "Images/Surgical Safety Checklist.jpg",
+    "Images/Kolmogorov Distribution.png",
+    "Images/Example of Feature Drift.png",
+    "Data Quality/Datasheets for DataSets.md"
   ]
 }
