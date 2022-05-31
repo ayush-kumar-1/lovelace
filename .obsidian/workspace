@@ -90,14 +90,14 @@
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
     "Data Quality/Data Quality.md",
-    "Bayesian Nonparametrics.md",
-    "Images/Checklist for Checklists.png",
-    "Data Quality/Great Expectations.md",
-    "Data Quality/KL Divergence.md",
-    "Images/Traditional MLOps Diagram.png",
-    "Images/Surgical Safety Checklist.jpg",
-    "Images/Kolmogorov Distribution.png",
-    "Images/Example of Feature Drift.png",
-    "Data Quality/Datasheets for DataSets.md"
+    "Data Quality/Data Drift.md",
+    "Data Quality/Data Augmentation.md",
+    "Data Quality/Detect Pretraining Data Bias.md",
+    "Data Quality/Deequ.md",
+    "Data Quality/Datasheets for DataSets.md",
+    "Data Quality/Kullback–Leibler divergence - Wikipedia.md",
+    "Data Quality/Measuring Pretraining Bias.md",
+    "Data Quality/Pervasive Label Errors in Test Sets Destablize ML Benchmarks.md",
+    "Bayesian Nonparametrics.md"
   ]
 }

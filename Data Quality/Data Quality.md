@@ -13,7 +13,7 @@ Andrew Ng posits that we spend nearly 80% of our time on data preparation, so we
 	4. Improves data governance - make sure your data is ethical and unbiased
 
 ## What is Data Quality?
-Ensuring the quality of data is key to ensuring model performance, preventing data drift, and creating interpretability. d
+Ensuring the quality of data is key to ensuring model performance, preventing data drift, and creating interpretability. 
 
 ![[Dimensions of Data Quality.png]] 
 
