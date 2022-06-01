@@ -19,4 +19,17 @@ Step 1: Read a lot
 - look carefully at references, and read the ones that make points that you may be interested in, then read the references for those articles 
 - read from tangentially related fields. look in areas outside of computer science/ML/Stat
 	For us this entails reading from sociology, psychology, and perhaps education papers 
-- Use the 'cited by' features in databases where it is avialable 
+- Use the 'cited by' features in databases where it is available (this will allow you too look forward)
+
+**Step 2: Define the Area**
+	The purpose of a literature is to review all of the relevant literature on a particular topic. ALL OF THE INFORMATION. A daunting task, no doubt. The reason we do this is to see what has been said about the subject in order to couch our own research within the context of the existing body of literature. We are trying to ADD to that body. It is important to know what that body of knowledge says so that we know where our own work should go, and, ultimately, does go. Keep in mind that when you are reviewing the literature, typically you are looking at the literature that deals with your particular area. So if you are looking at motivation in CBT, you would focus on that literature, and not every thing ever written about CBT.
+	
+With that said, you will be reading a lot. No doubt about it. However, there are a few things you could do to make your life easier, and your work more focused.
+- Define the sources you will look to for information, this is more and more important as information volume has exploded 
+- Exclude things that are not relevant. 
+- Make no apologies. Don't tell me your literature review is flawed from the beginning. Tell the reader where you looked, what you excluded, but don't put yourself down
+
+**Step 3: Keeping Track of All of this Stuff**
+There is so much out there. Here are some tips to keep track of everything you end up researching. This may take months or years which means keeping track of everything may be difficult. 
+
+- Save the full text article with the format `first author`
