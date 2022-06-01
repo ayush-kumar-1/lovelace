@@ -32,4 +32,8 @@ With that said, you will be reading a lot. No doubt about it. However, there are
 **Step 3: Keeping Track of All of this Stuff**
 There is so much out there. Here are some tips to keep track of everything you end up researching. This may take months or years which means keeping track of everything may be difficult. 
 
-- Save the full text article with the format `first author`
+- Save the full text article with the format `first author-first word of title-year`
+- save all bibliographic information 
+
+**Step 4: Writing it up**
+When writing a review remember that it is a review, not a summary of the work. 
