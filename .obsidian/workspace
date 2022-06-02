@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cyberbullying Project/Related Works.md",
+            "file": "Cyberbullying Project/Outline.md",
             "mode": "source",
             "source": false
           }
@@ -53,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 391,
-    "collapsed": true
+    "width": 391
   },
   "right": {
     "id": "068a167cf4a25bcd",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cyberbullying Project/Related Works.md",
+                "file": "Cyberbullying Project/Outline.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,6 +89,7 @@
   },
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
+    "Cyberbullying Project/Outline.md",
     "Cyberbullying Project/Related Works.md",
     "Cyberbullying Project/Literature/A Step Toward a Safer Internet Yard.md",
     "Cyberbullying Project/Literature/TweetEval.md",
@@ -98,7 +98,6 @@
     "Look Into Later.md",
     "Natural Language Processing/Comments & Recommendations from Jamell.md",
     "GRE Prep.md",
-    "Bayesian Nonparametrics.md",
-    "CleanLab.md"
+    "Bayesian Nonparametrics.md"
   ]
 }
