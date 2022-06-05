@@ -8,4 +8,12 @@ https://fasttext.cc/docs/en/language-identification.html
 
 Our preprocessing pipeline: 
  - remove all non-English tweets 
- - tokenize tweet characteris
+ - tokenize tweet characteristics 
+	 - URL
+	 - MENTION
+	 - RESERVED
+	 - SMILEY
+- demojize 
+- replace all special characters with space 
+- train Word Piece tokenizer on the dataset with the following special tokens. 
+	- 
