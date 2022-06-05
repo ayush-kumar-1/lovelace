@@ -7,11 +7,9 @@
         "id": "333480997ae2c1d4",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "pdf",
           "state": {
-            "file": "Cyberbullying Project/Resources.md",
-            "mode": "source",
-            "source": false
+            "file": "Cyberbullying Project/Data_Science_Capstone_Project_Final_Report.pdf"
           }
         }
       }
@@ -69,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cyberbullying Project/Resources.md",
+                "file": "Cyberbullying Project/Data_Science_Capstone_Project_Final_Report.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,7 +87,8 @@
   },
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
-    "Cyberbullying Project/Resources.md",
+    "Cyberbullying Project/Data_Science_Capstone_Project_Final_Report.pdf",
+    "Cyberbullying Project/Outline.md",
     "Cyberbullying Project/Related Works.md",
     "Cyberbullying Project/Literature/A Step Toward a Safer Internet Yard.md",
     "Cyberbullying Project/Literature/TweetEval.md",
@@ -97,7 +96,6 @@
     "Research and Publishing.md",
     "Look Into Later.md",
     "Natural Language Processing/Comments & Recommendations from Jamell.md",
-    "GRE Prep.md",
-    "Bayesian Nonparametrics.md"
+    "GRE Prep.md"
   ]
 }
