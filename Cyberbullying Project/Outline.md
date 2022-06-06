@@ -16,4 +16,9 @@ Our preprocessing pipeline:
 - demojize 
 - replace all special characters with space 
 - train Word Piece tokenizer on the dataset with the following special tokens. 
-	- 
+	- "\$HASHTAG\$", "\$EMOJI\$", "\$URL\$", RESERVED\$", "\$MENTION$", "[UNK]"
+	- tokenizer pipeline 
+		- WordPiece
+		- Lowercase(), NFD(), StripAccents() normalizers 
+		- encode and extract tokens 
+		- drop duplicate tokenizations 
