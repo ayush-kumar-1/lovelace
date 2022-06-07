@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Data Quality/Fairlearn.md",
+            "file": "Cyberbullying Project/Meeting with Lauren.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Quality/Fairlearn.md",
+                "file": "Cyberbullying Project/Meeting with Lauren.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
+    "Cyberbullying Project/Meeting with Lauren.md",
     "Data Quality/Fairlearn.md",
     "Data Quality/Bayesian Nonparametric Unsupervised Concept Drift Detection for Data Stream Mining.md",
     "Bayesian Nonparametrics.md",
@@ -97,7 +98,6 @@
     "Cyberbullying Project/Related Works.md",
     "Cyberbullying Project/Literature/A Step Toward a Safer Internet Yard.md",
     "Cyberbullying Project/Literature/TweetEval.md",
-    "Cyberbullying Project/Literature/HateBERT.md",
-    "Research and Publishing.md"
+    "Cyberbullying Project/Literature/HateBERT.md"
   ]
 }
