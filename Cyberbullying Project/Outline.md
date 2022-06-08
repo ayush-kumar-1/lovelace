@@ -27,3 +27,5 @@ Our preprocessing pipeline:
 - language detection is broken 
 - same tweet shows up multiple times because of retweets 
 - dataset scope may be narrow
+
+Can you publish in multiple places at once? 
