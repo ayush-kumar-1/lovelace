@@ -22,3 +22,8 @@ Our preprocessing pipeline:
 		- Lowercase(), NFD(), StripAccents() normalizers 
 		- encode and extract tokens 
 		- drop duplicate tokenizations 
+
+# Dataset Problems 
+- language detection is broken 
+- same tweet shows up multiple times because of retweets 
+- dataset scope may be narrow
