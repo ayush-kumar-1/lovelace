@@ -21,7 +21,7 @@ Our preprocessing pipeline:
 		- WordPiece
 		- Lowercase(), NFD(), StripAccents() normalizers 
 		- encode and extract tokens 
-		- drop duplicate tokenizations 
+		- drop duplicate tokenization 
 
 # Dataset Problems 
 - language detection is broken 
