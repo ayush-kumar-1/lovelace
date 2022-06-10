@@ -18,7 +18,7 @@ The six papers cited for seed queries for DQE
 - Chatzakou 2019 - Detecting Cyberbullying and Cyberaggression in Social Media
 - Davidson 2017 - Automated Hate Speech Detection and the Problem of Offensive Language
 - Waseem 2016 - Hateful Symbols or Hateful People? Predictive Features for Hate Speech Detection on Twitter
-- WISC 
+- WISC 2012 - Learning from Bullying Traces in Social Media
 
 **Retweets Should be Removed** 
 This additional preprocessing step will increase the diversity of the corpus and differentiate between an original cyberbullying tweet, and somebody simply responding to a tweet that contains cyberbullying. Idea taken from Brettschneider
