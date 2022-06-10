@@ -15,3 +15,5 @@ The potential issues in dataset quality must be considered to develop the correc
 **Retweets Should be Removed** 
 This additional preprocessing step will increase the diversity of the corpus and differentiate between an original cyberbullying tweet, and somebody simply responding to a tweet that contains cyberbullying. Idea taken from Brettschneider
 
+https://developer.twitter.com/en/use-cases/do-research
+- Twitter streaming API for better data collection than GetOldTweets3
