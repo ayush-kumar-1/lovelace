@@ -12,8 +12,16 @@ The potential issues in dataset quality must be considered to develop the correc
 - determine the extent of mislabeling using our pre-trained XLNet model
 - use assessment to iterate on datasets and boost model performance 
 
+The six papers cited for seed queries for DQE
+- Agrawal 2018 - Deep Learning for Detecting Cyberbullying Across Multiple Social Media Platforms
+- Brettschneider 2015 - Detecting Online Harassment in Social Networks
+- 
+
 **Retweets Should be Removed** 
 This additional preprocessing step will increase the diversity of the corpus and differentiate between an original cyberbullying tweet, and somebody simply responding to a tweet that contains cyberbullying. Idea taken from Brettschneider
 
 https://developer.twitter.com/en/use-cases/do-research
 - Twitter streaming API for better data collection than GetOldTweets3
+- includes details like language of tweets and more 
+- Free plan includes 500k tweets/month for testing
+- Academic plan includes 10m tweets/month but requires and extensive application & approval process 
