@@ -11,3 +11,7 @@ The potential issues in dataset quality must be considered to develop the correc
 - assess diversity and quality by lineage, and of data generated through DQE 
 - determine the extent of mislabeling using our pre-trained XLNet model
 - use assessment to iterate on datasets and boost model performance 
+
+**Retweets Should be Removed** 
+This additional preprocessing step will increase the diversity of the corpus and differentiate between an original cyberbullying tweet, and somebody simply responding to a tweet that contains cyberbullying. Idea taken from Brettschneider
+
