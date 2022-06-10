@@ -15,6 +15,9 @@ The potential issues in dataset quality must be considered to develop the correc
 The six papers cited for seed queries for DQE
 - Agrawal 2018 - Deep Learning for Detecting Cyberbullying Across Multiple Social Media Platforms
 - Brettschneider 2015 - Detecting Online Harassment in Social Networks
+- Chatzakou 2019 - Detecting Cyberbullying and Cyberaggression in Social Media
+- Davidson 2017 - Automated Hate Speech Detection and the Problem of Offensive Language
+- Waseem 2016 - Hateful Symbols or Hateful People? Predictive Features for Hate Speech Detection on Twitter
 - 
 
 **Retweets Should be Removed** 
