@@ -1,0 +1,2 @@
+# Data Lineage 
+Data Lineage answers the crucial question: where does your data come from. It is a broader part of building out your standards for data quality including a data dictionary. While a common theme in enterprise applications, data lineage can be equally important in academic settings. 
