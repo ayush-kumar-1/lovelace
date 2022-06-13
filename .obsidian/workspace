@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CleanLab.md",
+            "file": "Data Quality/Fairlearn.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CleanLab.md",
+                "file": "Data Quality/Fairlearn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
+    "Data Quality/Fairlearn.md",
+    "Data Quality/Facet Imbalance.md",
     "CleanLab.md",
+    "Images/Pasted image 20220613143207.png",
+    "Data Quality/Pervasive Label Errors in Test Sets Destablize ML Benchmarks.md",
+    "Cyberbullying Project/Dataset Quality Issue.md",
+    "Cyberbullying Project/Meeting with Lauren.md",
     "Data Quality/Deequ.md",
     "Data Quality/Detect Pretraining Data Bias.md",
-    "Data Quality/Characteristic Stability Index.md",
-    "Data Quality/Measuring Pretraining Bias.md",
-    "Data Quality/Data Drift.md",
-    "Data Quality/Kullback–Leibler divergence - Wikipedia.md",
-    "Data Quality/Kolmogorov-Smirnov Test.md",
-    "Data Quality/Bayesian Nonparametric Unsupervised Concept Drift Detection for Data Stream Mining.md",
-    "Cyberbullying Project/Meeting with Lauren.md"
+    "Data Quality/Characteristic Stability Index.md"
   ]
 }
