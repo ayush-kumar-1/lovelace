@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Data Quality/Fairlearn.md",
+            "file": "Data Quality/Bayesian Nonparametric Unsupervised Concept Drift Detection for Data Stream Mining.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Quality/Fairlearn.md",
+                "file": "Data Quality/Bayesian Nonparametric Unsupervised Concept Drift Detection for Data Stream Mining.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
+    "Data Quality/Bayesian Nonparametric Unsupervised Concept Drift Detection for Data Stream Mining.md",
+    "Data Quality/Data Drift.md",
+    "Cyberbullying Project/Dataset Quality Issue.md",
     "Data Quality/Fairlearn.md",
     "Data Quality/Facet Imbalance.md",
-    "CleanLab.md",
-    "Images/Pasted image 20220613143207.png",
-    "Data Quality/Pervasive Label Errors in Test Sets Destablize ML Benchmarks.md",
-    "Cyberbullying Project/Dataset Quality Issue.md",
-    "Cyberbullying Project/Meeting with Lauren.md",
-    "Data Quality/Deequ.md",
     "Data Quality/Detect Pretraining Data Bias.md",
+    "Data Quality/Data Lineage.md",
+    "Data Quality/Data Quality.md",
+    "Data Quality/Data Augmentation.md",
     "Data Quality/Characteristic Stability Index.md"
   ]
 }
