@@ -10,9 +10,17 @@ Revealing self as victim, label - **age**
 ![[Pasted image 20220623184656.png]]
 The domains of hate speech detection, abusive language detection, and detecting bullying traces are adjacent but distinct tasks from cyberbullying detection. Mislabeled data is the single greatest issue, and even manual annotation is flawed[^4]. Zeerak Waseem used expert analysis to find serious issues with mislabeled data in his own dataset. The original Waseem dataset also happens to be the most significant dataset used in Wang's paper (greatest number of tweets). The annotator bias problem is neatly summed with the following graphic. Cyberbullying classification is a hard problem even for humans. 
 ![[Pasted image 20220623190521.png]]
-Another key issue with the FGCD dataset is the lack of diversity in examples, and mislabeling of retweets as instances of cyberbullying themselves. The following screenshot of the dataset neatly illustrates my point. This lack of diversity if prevalent throughout all classes in the dataset. This is most likely a byproduct of the dynamic query expansion process. 
+Another key issue with the FGCD dataset is the lack of diversity in examples, and mislabeling of retweets as instances of cyberbullying themselves. The following screenshot of the dataset neatly illustrates my point. This lack of diversity if prevalent throughout all classes in the dataset. This is most likely a byproduct of the dynamic query expansion process. A common approach in the literature is to simply remove retweets and quote tweets from the dataset. 
 ![[Pasted image 20220623190838.png]]
-In a few words, cyberbullying detection faces sparse data, data mislableing
+In a few words, cyberbullying detection faces sparse data, data mislabeling by humans and machines, and noisy data. Inherent problems with datasets cannot be solved by more advanced models. They will simply learn to misclassify better. 
+
+# Potential Solutions 
+The need for a data-centric approach to cyberbullying classification was apparent to us even in the early stages of this project, but most of our early focus was on removing noise (tweets from other languages, spam tweets, etc.). While this approach yielded mild improvements in model performance it does not resolve the key issues of data. Knowing what we know, and trying to publish a paper where the very foundations are shaky is not how I want to begin my academic career.
+
+## Reducing/Eliminating Label Noise
+
+## Humans-In-The-Loop Systems/Active Learning
+## Rich Tweet Embeddings by Leveraging Graph Neural Networks 
 
 [^1]: SOSNet: A Graph Convolutional Network Approach to Fine-Grained Cyberbullying Detection
 [^2]: E. Englander, E. Donnerstein, R. Kowalski, C. A. Lin, and K. Parti, “Defining Cyberbullying,” _Pediatrics_, vol. 140, no. Supplement_2, pp. S148–S151, Nov. 2017, doi: [10.1542/peds.2016-1758U](https://doi.org/10.1542/peds.2016-1758U).
