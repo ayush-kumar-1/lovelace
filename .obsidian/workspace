@@ -9,7 +9,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cyberbullying Project/Introduction Draft.md",
+            "file": "Cyberbullying Project/Experimental Design.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "fc7924ca26f203a2",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Cyberbullying Project/Dataset Quality Issue.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cyberbullying Project/Introduction Draft.md",
+                "file": "Cyberbullying Project/Experimental Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +101,15 @@
   },
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
+    "Cyberbullying Project/Experimental Design.md",
+    "Cyberbullying Project/Dataset Quality Issue.md",
     "Cyberbullying Project/Introduction Draft.md",
     "conflict-files-obsidian-git.md",
     "Cyberbullying Project/Resources.md",
     "Cyberbullying Project/Related Works.md",
     "Cyberbullying Project/Meeting with Lauren.md",
-    "Cyberbullying Project/Dataset Quality Issue.md",
     "Automation/Automating Excel with Python.md",
     "Data Quality/Two-sample Bayesian Nonparametric Hypothesis Testing.md",
-    "Data Quality/Measuring Pretraining Bias.md",
-    "Data Quality/Data Augmentation.md"
+    "Data Quality/Measuring Pretraining Bias.md"
   ]
 }
