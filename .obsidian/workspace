@@ -14,18 +14,6 @@
             "source": false
           }
         }
-      },
-      {
-        "id": "fc7924ca26f203a2",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Cyberbullying Project/Dataset Quality Issue.md",
-            "mode": "source",
-            "source": false
-          }
-        }
       }
     ],
     "direction": "vertical"
@@ -65,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 436.0121879577637
+    "width": 429.0121879577637
   },
   "right": {
     "id": "068a167cf4a25bcd",
