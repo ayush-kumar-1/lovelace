@@ -27,9 +27,11 @@ For a binary classification problem we may have a $[0,1]$ label corresponding to
 $$T = \left[ \begin{matrix}0.9 & 0.2 \\ 0.1& 0.8\end{matrix}\right]$$
 In this example 10% of not cyberbullying tweets are mislabeled as cyberbullying & 20% of cyberbullying tweets are labeled as not cyberbullying. Note that the noise transition matrix is not symmetrical. Theory has shown that knowing the noise transition matrix in combination with reweighting the loss is equivalent to learning from a clean dataset, albeit with less examples. Unfortunately datasets do not come with the noise transition matrix as a csv file. Some notable methods for estimating the noise transition matrix not mentioned in the survey (footnote 5) include HOC[^6], Feature based Methods[^7], and Confident Learning[^8]. 
 
-Other methods for learning from noisy labels include adversarial training to improve resistance to noise, choosing loss functions robust to noise, loss adjustment, sample selection
+Other methods for learning from noisy labels include adversarial training to improve resistance to noise, choosing loss functions robust to noise, loss adjustment by weighting noisy examples lower, sample selection to choose the cleanest examples for learning, collaborative learning, and model distillation. 
 
 ## Humans-In-The-Loop Systems/Active Learning
+Active learning is subset of humans-in-the-loop systems. The motivation for this approach is simple: humans alone are biased annotators, so multiple annotators or subject matter experts are needed to label data. Machines, especially large language models do best with large amounts of available data. Active learning seeks to shift from a supervised to semi-supervised/self-supervised approach. We let models choose which examples are most important to be labeled to get the most bang for our buck. This is similar to the idea of "anchor points" found in many of the noisy learning methods. 
+
 ## Rich Tweet Embeddings by Leveraging Graph Neural Networks 
 
 [^1]: SOSNet: A Graph Convolutional Network Approach to Fine-Grained Cyberbullying Detection
