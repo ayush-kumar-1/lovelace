@@ -41,7 +41,15 @@ HITL/AL systems have shown to improve model accuracy beyond naively labeling mas
 ## Rich Tweet Embeddings by Leveraging Graph Neural Networks 
 Tweets are not just short pieces of text - more often than not they are parts of complex human interactions generating network data. Decontextualizing tweets to text loses critical context for classification. Retweet propagation, speed of spread, user characteristics, time, and geospatial data are all parts of a single tweet. Earlier this year we were discussing the problem of fake news, and difficulties in identifying the ground truth. Lauren mentioned research showing that fake news spread faster than real news, and that these characteristics were useful in classification. Some researchers leveraged rich tweet network data including user interactions, word embeddings, and retweet propagation in combination with graph neural networks (GNN) for fake news classification. Rich tweet data improved fake news classification by nearly 20 accuracy points[^11].
 
-I strongly believe that applying such techniques to the cyberbullying problem would produce impressive results. User information and interactions are key elements to differentiate targeted cyberbullying from other negative sentiment tweets. Is being mean to a president really cu 
+I strongly believe that applying such techniques to the cyberbullying problem would produce impressive results. User information and interactions are key elements to differentiate targeted cyberbullying from other negative sentiment tweets. Is being mean to a president really cyberbullying? (I honestly don't know the answer this question, showing the inherent nuance and difficulty of this problem.)
+
+# Proposal for Research Direction 
+Each of the 3 solutions I've mentioned could be their own project. Unfortunately our time and resources are limited. I believe that building systems to learn from noisy tweet labels would be the best project we can accomplish. The experimental design is as follows: 
+- Pick 3-4 promising techniques to learn with noisy labels 
+- Find 2-3 clean hate speech/cyberbullying detection datasets, and test technique strength by injecting synthetic label noise into the dataset
+- Leverage the best technique on real twitter data and observe real-world performance 
+
+It seems so simple when I write it out like that :)
 
 [^1]: SOSNet: A Graph Convolutional Network Approach to Fine-Grained Cyberbullying Detection
 [^2]: E. Englander, E. Donnerstein, R. Kowalski, C. A. Lin, and K. Parti, “Defining Cyberbullying,” _Pediatrics_, vol. 140, no. Supplement_2, pp. S148–S151, Nov. 2017, doi: [10.1542/peds.2016-1758U](https://doi.org/10.1542/peds.2016-1758U).
