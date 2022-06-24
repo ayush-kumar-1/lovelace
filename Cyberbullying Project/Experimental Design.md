@@ -24,7 +24,10 @@ There are many approaches to the noisy learning problem, the first being estimat
 An example $x$ is considered to be mislabeled if the given label $y_i \neq Y$ the true label. For a given $c$-class classification problem we can estimate the probability that that an example with class label $c_i$ will we inaccurately flipped to class label $c_j$. This is known as the transition probability, it can be read as the probability that class label $c_i$ will be mislabeled as $c_j$. The transition matrix $T$ consists of all such probabilities. 
 $$T_{ij} = p(\tilde y = c_j, y = c_i |x)$$
 For a binary classification problem we may have a $[0,1]$ label corresponding to not cyberbullying and cyberbullying respectively. We may have a sample transition matrix
-$$T = \left[ \begin{matrix\right]$$
+$$T = \left[ \begin{matrix}0.9 & 0.2 \\ 0.1& 0.8\end{matrix}\right]$$
+In this example 10% of not cyberbullying tweets are mislabeled as cyberbullying & 20% of cyberbullying tweets are labeled as not cyberbullying. Note that the noise transition matrix is not symmetrical. Theory has shown that knowing the noise transition matrix in combination with reweighting the loss is equivalent to learning from a clean dataset, albeit with less examples. Unfortunately datasets do not come with the noise transition matrix as a csv file. Some notable methods for estimating the noise transition matrix not mentioned in the survey (footnote 5) include HOC[^6], Feature based Methods[^7], and Confident Learning[^8]. 
+
+Other methods for learning from noisy labels include adversarial training to improve resistance to noise, choosing loss functions robust to noise, loss adjustment, sample selection
 
 ## Humans-In-The-Loop Systems/Active Learning
 ## Rich Tweet Embeddings by Leveraging Graph Neural Networks 
@@ -34,3 +37,6 @@ $$T = \left[ \begin{matrix\right]$$
 [^3]: J.-M. Xu, K.-S. Jun, X. Zhu, and A. Bellmore, “Learning from Bullying Traces in Social Media,” in _Proceedings of the 2012 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies_, Montréal, Canada, Jun. 2012, pp. 656–666. Accessed: Jun. 10, 2022. [Online]. Available: [https://aclanthology.org/N12-1084](https://aclanthology.org/N12-1084)
 [^4]: Z. Waseem, “Are You a Racist or Am I Seeing Things? Annotator Influence on Hate Speech Detection on Twitter,” in _Proceedings of the First Workshop on NLP and Computational Social Science_, Austin, Texas, Nov. 2016, pp. 138–142. doi: [10.18653/v1/W16-5618](https://doi.org/10.18653/v1/W16-5618).
 [^5]: H. Song, M. Kim, D. Park, Y. Shin, and J.-G. Lee, “Learning from Noisy Labels with Deep Neural Networks: A Survey.” arXiv, Mar. 09, 2022. doi: [10.48550/arXiv.2007.08199](https://doi.org/10.48550/arXiv.2007.08199).
+[^6]: Z. Zhu, Y. Song, and Y. Liu, “Clusterability as an Alternative to Anchor Points When Learning with Noisy Labels,” Feb. 2021, doi: [10.48550/arXiv.2102.05291](https://doi.org/10.48550/arXiv.2102.05291).
+[^7]: Z. Zhu, Z. Dong, and Y. Liu, “Detecting Corrupted Labels Without Training a Model to Predict,” arXiv, arXiv:2110.06283, Jan. 2022. doi: [10.48550/arXiv.2110.06283](https://doi.org/10.48550/arXiv.2110.06283).
+[^8]: C. Northcutt, L. Jiang, and I. Chuang, “Confident Learning: Estimating Uncertainty in Dataset Labels,” _Journal of Artificial Intelligence Research_, vol. 70, pp. 1373–1411, Apr. 2021, doi: [10.1613/jair.1.12125](https://doi.org/10.1613/jair.1.12125).
