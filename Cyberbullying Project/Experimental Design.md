@@ -17,9 +17,14 @@ In a few words, cyberbullying detection faces sparse data, data mislabeling by h
 # Potential Solutions 
 The need for a data-centric approach to cyberbullying classification was apparent to us even in the early stages of this project, but most of our early focus was on removing noise (tweets from other languages, spam tweets, etc.). While this approach yielded mild improvements in model performance it does not resolve the key issues of data. Knowing what we know, and trying to publish a paper where the very foundations are shaky is not how I want to begin my academic career. I layout three potential solutions to key issues, and at the end I will give my recommendation for project direction and experimental design. 
 ## Reducing/Eliminating Label Noise
-If mislabeling is the key issue, then we should work to build systems to actively detect mislabeled examples. Unsupervised detection of corrupted labels is a topic that has exploded recently, particularly in the subfield of image classification. Many techniques[^5] have shown promise in improving model accuracy even with a high degree of mislabeled data. Much of this research has not been applied to NLP tasks, creating a niche contribution for us to leverage. Almost all attempts to learn from noisy labels focus on estimating $T$ the noise transition matrix. Let $X$ represent the feature space, $Y, \tilde Y$ represent the true and noisy label space respectively. 
+If mislabeling is the key issue, then we should work to build systems to actively detect mislabeled examples. Unsupervised detection of corrupted labels is a topic that has exploded recently, particularly in the subfield of image classification. Many techniques[^5] have shown promise in improving model accuracy even with a high degree of mislabeled data. Much of this research has not been applied to NLP tasks, creating a niche contribution for us to leverage. 
 
-An example $x$ is considered to be mislabeled if the given label $y_i \neq Y$ the true label. 
+There are many approaches to the noisy learning problem, the first being estimating $T$, the noise transition matrix. Let $X$ represent the feature space, $Y, \tilde Y$ represent the true and noisy label space respectively. 
+
+An example $x$ is considered to be mislabeled if the given label $y_i \neq Y$ the true label. For a given $c$-class classification problem we can estimate the probability that that an example with class label $c_i$ will we inaccurately flipped to class label $c_j$. This is known as the transition probability, it can be read as the probability that class label $c_i$ will be mislabeled as $c_j$. The transition matrix $T$ consists of all such probabilities. 
+$$T_{ij} = p(\tilde y = c_j, y = c_i |x)$$
+For a binary classification problem we may have a $[0,1]$ label corresponding to not cyberbullying and cyberbullying respectively. We may have a sample transition matrix
+$$T = \left[ \begin{matrix\right]$$
 
 ## Humans-In-The-Loop Systems/Active Learning
 ## Rich Tweet Embeddings by Leveraging Graph Neural Networks 
