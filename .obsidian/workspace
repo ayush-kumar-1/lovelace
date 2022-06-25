@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cyberbullying Project/Resources.md",
+            "file": "Automation/Automating Excel with Python.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cyberbullying Project/Resources.md",
+                "file": "Automation/Automating Excel with Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
-    "Cyberbullying Project/Resources.md",
-    "Cyberbullying Project/Related Works.md",
-    "Cyberbullying Project/Project Hub.md",
-    "Cyberbullying Project/Meeting with Lauren.md",
-    "Cyberbullying Project/Introduction Draft.md",
-    "Cyberbullying Project/Experimental Design.md",
-    "Cyberbullying Project/Dataset Quality Issue.md",
+    "Automation/Automating Excel with Python.md",
+    "Cyberbullying Project/Comments & Recommendations from Jamell.md",
     "Cyberbullying Project/Data_Science_Capstone_Project_Final_Report.pdf",
-    "Cyberbullying Project/Data Diversity Report.md",
-    "Cyberbullying Project/Comments & Recommendations from Jamell.md"
+    "Cyberbullying Project/Dataset Quality Issue.md",
+    "Cyberbullying Project/Experimental Design.md",
+    "Cyberbullying Project/Introduction Draft.md",
+    "Cyberbullying Project/Project Hub.md",
+    "Data Quality/Characteristic Stability Index.md",
+    "Research and Publishing.md",
+    "Bayesian Nonparametrics.md"
   ]
 }

@@ -15,4 +15,4 @@ Where $n_a$ is the number of members of facet _a_ and $n_d$ the number for f
 -   CI values near either of the extremes values of -1 or 1 are very imbalanced and are at a substantial risk of making biased predictions.
     
 
-If a significant facet imbalance is found to exist among the facets, you might want to rebalance the sample before proceeding to train models on it.
+If a significant facet imbalance is found to exist among the facets, you might want to rebalance the sample before proceeding to train models on it. Measuring the facet imbalance is an important of part of [[Detect Pretraining Data Bias|detecting pretraining bias.]]
