@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cyberbullying Project/Experimental Design.md",
+            "file": "Research and Publishing.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cyberbullying Project/Experimental Design.md",
+                "file": "Research and Publishing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
+    "Research and Publishing.md",
+    "Data Quality/Measuring Pretraining Bias.md",
+    "Data Quality/Population Stability Index.md",
     "Cyberbullying Project/Experimental Design.md",
     "Cyberbullying Project/Introduction Draft.md",
     "Cyberbullying Project/Project Hub.md",
     "Cyberbullying Project/Related Works.md",
     "Cyberbullying Project/Resources.md",
     "Cyberbullying Project/Dataset Quality Issue.md",
-    "Research and Publishing.md",
-    "The Checklist Manifesto.md",
-    "Cyberbullying Project/Data_Science_Capstone_Project_Final_Report.pdf",
-    "Cyberbullying Project/Comments & Recommendations from Jamell.md"
+    "The Checklist Manifesto.md"
   ]
 }

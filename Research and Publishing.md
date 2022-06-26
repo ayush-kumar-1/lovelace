@@ -11,3 +11,6 @@ tags:
 - deadline is passed for 2022
 [COLING 2022](https://coling2022.org/accepted)
 - deadline has passed for 2022
+
+Research Ideas
+- Does code quality impact number of citations?
