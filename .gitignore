@@ -1,1 +1,10 @@
 .obsidian/workspace
+*.tex
+*.aux
+*.log
+*.out
+*.dvi
+*.bbl
+*.blg
+*.bcf
+*.synctex.gz
