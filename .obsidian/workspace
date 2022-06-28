@@ -7,8 +7,12 @@
         "id": "b141f19589d05caf",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "The Replication Crisis.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "The Replication Crisis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,6 +89,7 @@
   },
   "active": "b141f19589d05caf",
   "lastOpenFiles": [
+    "The Replication Crisis.md",
     "Cyberbullying Project/Introduction Draft.md",
     "Cyberbullying Project/Project Hub.md",
     "Cyberbullying Project/Related Works.md",
@@ -92,7 +98,6 @@
     "Research and Publishing.md",
     "Data Quality/Measuring Pretraining Bias.md",
     "Data Quality/Population Stability Index.md",
-    "Cyberbullying Project/Dataset Quality Issue.md",
-    "The Checklist Manifesto.md"
+    "Cyberbullying Project/Dataset Quality Issue.md"
   ]
 }
