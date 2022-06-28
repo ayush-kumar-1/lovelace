@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cyberbullying Project/Introduction Draft.md",
+            "file": "Cyberbullying Project/Experimental Design.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cyberbullying Project/Introduction Draft.md",
+                "file": "Cyberbullying Project/Experimental Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,22 +86,31 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Cyberbullying Project/Experimental Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "ebe363a841b72609",
+            "type": "leaf",
+            "state": {
+              "type": "ReferenceListView",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "b141f19589d05caf",
   "lastOpenFiles": [
-    "Cyberbullying Project/Introduction Draft.md",
     "Cyberbullying Project/Experimental Design.md",
+    "Cyberbullying Project/Introduction Draft.md",
     "Cyberbullying Project/Dataset Quality Issue.md",
     "Cyberbullying Project/Project Hub.md",
     "Cyberbullying Project/Related Works.md",
