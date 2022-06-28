@@ -4,3 +4,4 @@ Current cyberbullying literature suffers from a sparsity of a high quality data.
 The twitter landscape is also rapidly changing with semantic meanings shifting with cultural waves. This poses potential for data drift. Either stationary assumptions must be carefully assessed, or tweets must be taken from a relatively short period in time (2-3 months) to ensure semantic stability. 
 
 Tweets should take into account their metadata, this includes any retweets, number of followers/following for the account, quote tweets etc. This data must all be embedded into a single vector for classification, and poses some extremely difficult challenges of combining text data with numerical values, and graph representation of a tweet and potential retweets. I don't know how to solve this problem yet, but leveraging rich embeddings of tweets will utilize greater amounts of information and provide more robust (and potentially more accurate) predictions of cyberbullying. 
+
