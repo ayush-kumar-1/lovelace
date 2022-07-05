@@ -1,2 +1,2 @@
 # Learning with Noisy Labels 
-Deep neural networks (DNN) have a tendency to memorize and overfit on datasets. Arpit. et. al showed that DNNs will first memorize general patterns, and then ad
+Deep neural networks (DNN) have a tendency to memorize and overfit on datasets. Arpit. et. al showed that DNNs will first memorize general patterns, and only later overfit on noisy labels. [@arpitCloserLookMemorization2017]  Real world data is prone is noisy labels and requires approaches leverage large-scale noisy datasets. Waseem et. al showed that cyberbullying annotations can often suffer from biased label annotations. [@waseemAreYouRacist2016] 
