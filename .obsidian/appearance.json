@@ -1,4 +1,5 @@
 {
   "theme": "moonstone",
-  "baseFontSize": 17
+  "baseFontSize": 17,
+  "cssTheme": "Deep Work"
 }
