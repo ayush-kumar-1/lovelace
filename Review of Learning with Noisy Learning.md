@@ -15,4 +15,4 @@ Instance-independent noise (IIN) assumes that corruption process in conditionall
 	3. *Pair Noise* is a stricter case of asymmetric noise where a true label is flipped into only a certain different label. 
 IIN can be simply generated with random label flipping procedures based on the noise transition matrix. 
 
-With *Instance-Dependent Noise* (IDN) 
+With *Instance-Dependent Noise* (IDN) the corruption probability is assumed to be depending on both the features and the labels. This type of noise is by far more 
