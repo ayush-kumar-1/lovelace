@@ -4,4 +4,4 @@ Deep neural networks (DNN) have a tendency to memorize and overfit. Arpit. et. a
 The first portion of this document will lay the preliminaries for LNL problem. Then we will sample some of the approaches available to address the issue. A few studies of LNL in the text classification domain will follow. Finally, I will give my thoughts on the direction of our study including recommendations, concerns, and next steps. 
 
 ## Preliminaries 
-We consider a $c$-class classification problem with a softmax output layer, so all output probabilities add up to one.  Let $
+We consider a $c$-class classification problem with a softmax output layer, so all output probabilities add up to one.  Let $\mathcal{X} \subset \mathbb{R}^d$  be the features space and $\mathcal{Y}$ be the one-hot encoded label. The clean dataset $\mathcal{D}$ is comprised of $N$ data points $(x_i, y_i)$  from an unknown joint probability distribution $\mathcal{P}_d$ where every example is independent and identically distributed.  A DNN will learn the mapping function $f$ with parameters $\Theta$ that correctly maps $\mathcal{X} \Rightarrow \mathcal{Y}$   
