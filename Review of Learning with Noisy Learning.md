@@ -13,6 +13,6 @@ Instance-independent noise (IIN) assumes that corruption process in conditionall
 	1. *Symmetric or Uniform Noise* in which there is an equal chance of any label $i$ being corrupted into a label $j$ with a noise rate $\tau$. $\forall_{i\neq j} T_{ij} = \frac{\tau}{c-1}$ 
 	2. *Asymmetric or Label-Dependent Noise* in which certain classes are more likely to be confused than others. For example "not cyberbullying"  may be easily confused with "other cyberbullying" than "gender-based cyberbullying". 
 	3. *Pair Noise* is a stricter case of asymmetric noise where a true label is flipped into only a certain different label. 
-IIN can be simply generated with random label flipping procedures based on the noise transition matrix. 
+IIN can be simply generated with random label flipping procedures based on a specified noise transition matrix. 
 
-With *Instance-Dependent Noise* (IDN) the corruption probability is assumed to be depending on both the features and the labels. This type of noise is by far more 
+With *Instance-Dependent Noise* (IDN) the corruption probability is assumed to be depending on both the features and the labels. This type of noise is by far more challenging to model. The corruption probabilit 
