@@ -21,6 +21,8 @@ With *Instance-Dependent Noise* (IDN) the corruption probability is assumed to b
 ### AutoDO (Gudovskiy et. al)
 ### Augmentation Strategies (Nishi et. al)
 ### S-Model & C-Model (Goldberger & Ben-Reuven)
+### Adversarial Training (Zhu et. al)
+### SCE-Loss (Wei et. al)
 
 ## Loss Adjustment 
 ### SEAL (Chen et. al)
@@ -31,3 +33,4 @@ With *Instance-Dependent Noise* (IDN) the corruption probability is assumed to b
 ### Confident Learning (Northcutt et. al)
 ### Co-Teaching (Han et. al) & Co-Teaching+ (Yu et. al)
 ### JoCoR (Wei. et. al)
+### DivideMix (Li et. al)
