@@ -27,10 +27,16 @@ With *Instance-Dependent Noise* (IDN) the corruption probability is assumed to b
 ## Loss Adjustment 
 ### SEAL (Chen et. al)
 ### HOC (Zhu et. al)
+### MLC (Zheng et. al)
 
 ## Sample Selection 
 
 ### Confident Learning (Northcutt et. al)
+Confident learning (CL) is implemented in the [[CleanLab]] library and introduced me to the idea of LNL [@northcuttConfidentLearningEstimating2021]. CL follows a data-centric approach and relies on the premise that the key to LNL lies in accurately characterizing the uncertainty of label noise in the data. CL boils down to 3 approaches. 
+	1. *Prune*, searching for label errors and *soft-pruning* using loss-reweighting. *Hard-pruning* may characterized as *label refurbishment* or removing noisy examples from the training set. 
+	2. *Count*, training on the clean data. 
+	3. *Rank* which examples to use during training. This allows learning from unnormalized probabilities and the ideas of curriculum learning. 
+
 ### Co-Teaching (Han et. al) & Co-Teaching+ (Yu et. al)
 ### JoCoR (Wei. et. al)
 ### DivideMix (Li et. al)
