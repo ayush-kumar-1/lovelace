@@ -26,6 +26,7 @@ With *Instance-Dependent Noise* (IDN) the corruption probability is assumed to b
 
 ## Loss Adjustment 
 ### SEAL (Chen et. al)
+
 ### HOC (Zhu et. al)
 ### MLC (Zheng et. al)
 
@@ -51,7 +52,7 @@ When students write essays or work on assignments alone they may be blind to cer
 CIFAR-10 45% Pair Noise - 75.42%
 CIFAR-10 50% Symmetric Noise - 74.02% 
 
-Co-Teaching+ (COT+) 
+Co-Teaching+ (COT+) [@yuHowDoesDisagreement2019] utilizes a disagreement strategy to incrementally improve the COT algorithm. An additional filter is places on the sample selection and only samples where disagreement occurs are chosen for the COT+ strategy. Everything else remains the same. 
 
 ### JoCoR (Wei. et. al)
 ### DivideMix (Li et. al)
