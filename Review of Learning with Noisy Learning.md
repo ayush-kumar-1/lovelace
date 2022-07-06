@@ -15,4 +15,13 @@ Instance-independent noise (IIN) assumes that corruption process in conditionall
 	3. *Pair Noise* is a stricter case of asymmetric noise where a true label is flipped into only a certain different label. 
 IIN can be simply generated with random label flipping procedures based on a specified noise transition matrix. 
 
-With *Instance-Dependent Noise* (IDN) the corruption probability is assumed to be depending on both the features and the labels. This type of noise is by far more challenging to model. The corruption probability is defined as $p_{ij}(x) = p(\tilde y = j|y=i,x)$. The key difference is that mislabeling is also dependent on the features $x$. IDN is far more realistic, but more difficult to generate as well. Chen et. al attempts to address IDN with novel approaches for generation and modeling [@chenClassConditionalAssumptionPrimary2020]. The IDN generation algorithm from Chen et. al trains a DNN for multiple epochs and 
+With *Instance-Dependent Noise* (IDN) the corruption probability is assumed to be depending on both the features and the labels. This type of noise is by far more challenging to model. The corruption probability is defined as $p_{ij}(x) = p(\tilde y = j|y=i,x)$. The key difference is that mislabeling is also dependent on the features $x$. IDN is far more realistic, but more difficult to generate as well. Chen et. al attempts to address IDN with novel approaches for generation and modeling [@chenClassConditionalAssumptionPrimary2020]. The IDN generation algorithm from Chen et. al trains a DNN for multiple epochs and looks for examples where there are severe swings in predicted probabilities. This corresponds to "hard" examples which are confused more often. Other approaches involve training non small samples of data and then generalizing noise generating algorithms on that basis. 
+
+## Robust Loss Functions & Regularization 
+
+## Loss Adjustment 
+
+## Sample Selection 
+
+### Confident Learning (Northcutt et. al)
+### Co-Teaching & Co-Teaching+ 
