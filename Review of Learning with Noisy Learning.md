@@ -43,7 +43,7 @@ CIFAR-10 40% Asymmetric Noise - 87.2%
 CL was also tested on the Amazon reviews dataset with varying amounts of label noise, and showed 5-6% accuracy improvements over baseline. 
 
 ### Co-Teaching (Han et. al) & Co-Teaching+ (Yu et. al)
-Co-Teaching (COT)  builds off of 
+Co-Teaching (COT) [@hanCoteachingRobustTraining2018] builds off of MentorNet [@jiangMentorNetLearningDataDriven2018] and decoupling with an iteration on multi-network learning for noisy labels. The goal is for the twin networks to select clean samples based on a pre-trained network. This is very similar to ideas found within active learning where after a certain amount of random examples are labeled, certain data are chosen for labeling. The two-network approach makes sense so long as the two networks are learning independently. The networks receive independent mini-batches of data $b_f, b_g$. The two classifiers $f, g$ then pick examples for the other to learn from based on small-loss instances from their respective mini-batches. Thus, classifier $f$ is updated with small-loss instance from $b_g$ and classifier $g$ is updated with small-loss instances from $b_f$. This exchanging process is the backbone of COT. 
 
 ### JoCoR (Wei. et. al)
 ### DivideMix (Li et. al)
