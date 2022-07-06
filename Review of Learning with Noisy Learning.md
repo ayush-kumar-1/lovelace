@@ -36,7 +36,14 @@ Confident learning (CL) is implemented in the [[CleanLab]] library and introduce
 	1. *Prune*, searching for label errors and *soft-pruning* using loss-reweighting. *Hard-pruning* may characterized as *label refurbishment* or removing noisy examples from the training set. 
 	2. *Count*, training on the clean data. 
 	3. *Rank* which examples to use during training. This allows learning from unnormalized probabilities and the ideas of curriculum learning. 
+Confident Learning is a framework agnostic of model choice or task at hand (so long as it is classification). 
+
+**Test Results**
+CIFAR-10 40% Asymmetric Noise - 87.2% 
+CL was also tested on the Amazon reviews dataset with varying amounts of label noise, and showed 5-6% accuracy improvements over baseline. 
 
 ### Co-Teaching (Han et. al) & Co-Teaching+ (Yu et. al)
+Co-Teaching (COT)  builds off of 
+
 ### JoCoR (Wei. et. al)
 ### DivideMix (Li et. al)
