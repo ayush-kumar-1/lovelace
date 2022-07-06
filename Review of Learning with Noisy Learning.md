@@ -45,5 +45,13 @@ CL was also tested on the Amazon reviews dataset with varying amounts of label n
 ### Co-Teaching (Han et. al) & Co-Teaching+ (Yu et. al)
 Co-Teaching (COT) [@hanCoteachingRobustTraining2018] builds off of MentorNet [@jiangMentorNetLearningDataDriven2018] and decoupling with an iteration on multi-network learning for noisy labels. The goal is for the twin networks to select clean samples based on a pre-trained network. This is very similar to ideas found within active learning where after a certain amount of random examples are labeled, certain data are chosen for labeling. The two-network approach makes sense so long as the two networks are learning independently. The networks receive independent mini-batches of data $b_f, b_g$. The two classifiers $f, g$ then pick examples for the other to learn from based on small-loss instances from their respective mini-batches. Thus, classifier $f$ is updated with small-loss instance from $b_g$ and classifier $g$ is updated with small-loss instances from $b_f$. This exchanging process is the backbone of COT. 
 
+When students write essays or work on assignments alone they may be blind to certain mistakes they repeatedly make. For example, my grammar has remained consistently horrendous even as my prose has improved. Another student may be blind to other kinds of mistakes. When we check each others works both of us become much stronger. This is the intuition behind the student-teacher approach. The dual networks are better equipped to find different kinds of label noise and correct learning. 
+
+**Test Results**
+CIFAR-10 45% Pair Noise - 75.42%
+CIFAR-10 50% Symmetric Noise - 74.02% 
+
+Co-Teaching+ (COT+) 
+
 ### JoCoR (Wei. et. al)
 ### DivideMix (Li et. al)
