@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "The Replication Crisis.md",
+            "file": "Automation/Automating Excel with Python.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "The Replication Crisis.md",
+                "file": "Automation/Automating Excel with Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "333480997ae2c1d4",
   "lastOpenFiles": [
-    "The Replication Crisis.md",
-    "Data for Good.md",
     "Automation/Automating Excel with Python.md",
-    "Data Quality/Two-sample Bayesian Nonparametric Hypothesis Testing.md",
-    "Data Quality/Measuring Pretraining Bias.md",
-    "Data Quality/Data Augmentation.md",
-    "Data Quality/Bayesian Nonparametric Unsupervised Concept Drift Detection for Data Stream Mining.md",
-    "Data Quality/Data Drift.md",
+    "Cyberbullying Project/Introduction Draft.md",
+    "Cyberbullying Project/Related Works.md",
+    "Cyberbullying Project/Resources.md",
+    "Cyberbullying Project/Project Hub.md",
+    "Cyberbullying Project/Experimental Design.pdf",
     "Cyberbullying Project/Dataset Quality Issue.md",
-    "Data Quality/Fairlearn.md"
+    "Bayesian Nonparametrics.md",
+    "Data for Good.md",
+    "The Replication Crisis.md"
   ]
 }
