@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "b141f19589d05caf",
+        "id": "333480997ae2c1d4",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Review of Learning with Noisy Learning.md",
+            "file": "The Replication Crisis.md",
             "mode": "source",
             "source": false
           }
@@ -53,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 324.0007801055908,
-    "collapsed": true
+    "width": 391
   },
   "right": {
     "id": "068a167cf4a25bcd",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Review of Learning with Noisy Learning.md",
+                "file": "The Replication Crisis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,45 +79,25 @@
                 "unlinkedCollapsed": false
               }
             }
-          },
-          {
-            "id": "ee6db56346830643",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Review of Learning with Noisy Learning.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "ebe363a841b72609",
-            "type": "leaf",
-            "state": {
-              "type": "ReferenceListView",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 284.6090087890625
+    "width": 300,
+    "collapsed": true
   },
-  "active": "b141f19589d05caf",
+  "active": "333480997ae2c1d4",
   "lastOpenFiles": [
-    "Review of Learning with Noisy Learning.md",
-    "Cyberbullying Project/Resources.md",
-    "Cyberbullying Project/Related Works.md",
-    "Cyberbullying Project/Project Hub.md",
-    "Cyberbullying Project/Introduction Draft.md",
-    "Cyberbullying Project/Experimental Design.md",
-    "Cyberbullying Project/Experimental Design.pdf",
-    "Cyberbullying Project/Comments & Recommendations from Jamell.md",
-    "Cyberbullying Project/Data_Science_Capstone_Project_Final_Report.pdf",
-    "Cyberbullying Project/Dataset Quality Issue.md"
+    "The Replication Crisis.md",
+    "Data for Good.md",
+    "Automation/Automating Excel with Python.md",
+    "Data Quality/Two-sample Bayesian Nonparametric Hypothesis Testing.md",
+    "Data Quality/Measuring Pretraining Bias.md",
+    "Data Quality/Data Augmentation.md",
+    "Data Quality/Bayesian Nonparametric Unsupervised Concept Drift Detection for Data Stream Mining.md",
+    "Data Quality/Data Drift.md",
+    "Cyberbullying Project/Dataset Quality Issue.md",
+    "Data Quality/Fairlearn.md"
   ]
 }
