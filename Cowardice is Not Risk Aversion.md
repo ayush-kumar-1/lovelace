@@ -1,1 +1,2 @@
 # Cowardice is Not Risk Aversion
+Humans on average are risk averse creatures. And the higher the stakes, the more we value the sure outcome. Let me offer you a simple coin toss for $10, if it comes back heads I'll give you $15 if it comes up tails I keep your money. Some people instantly reject this bet, some would take it almost by instinct. The statisticians might tell you that nobody should take the bet because the expected value is -$2.5 ($0.5 *+5$ $)
