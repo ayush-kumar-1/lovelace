@@ -5,4 +5,12 @@ The second fundamental assumption of time-series models is a stationary environm
 
 Keeping in mind these two fundamental limitations time-series modeling may be appropriate. Many modern time-series frameworks automate feature engineering, but these fundamentals are key when off-the-shelf approaches fail. 
 
-##
+## Time-Series Features 
+
+### Lag Variables 
+The most fundamental time-series feature is the auto-regressive or lag variable. An $AR(1)$ variable represents the time-period directly before the one we're forecasting. The $AR(1)$ model can be written as 
+
+$$x_t = \alpha x_{t-1}+c+\epsilon_t$$
+Where $x_t$ is the variable at time $t$, and $\alpha, c$ are parameters to be estimated. $\epsilon_t$ is the random error term. which is (often incorrectly) assumed to be normally distributed. The $AR(0)$ model represents white noise guided only by this error term. The auto-regressive model can handle higher-order terms, or lags for $p$ periods. This $AR(p)$ model is written as 
+
+$$x_t = \sum_{n=1}^pa_nx_t-n$$
