@@ -2,7 +2,8 @@ Machine learning assumes that data can be used to train statistical models to pi
 
 **“The model and the code for many applications are basically a solved problem, Now that the models have advanced to a certain point, we got to make the data work as well.” - Andrew Ng**
 
-              Data quality is a multidimensional issue ranging from simple validation to detecting intersectional biases. Many businesses are familiar with common sense pre-training data validation; what is referred to as **data quality.** Data quality and data-centric AI go beyond data quality and ask questions about the distribution of the dataset. **Data distribution quality** encompasses testing and validating the statistical assumptions made during pre-training, modeling, and deployment. **Data documentation** allows for all aspects of data and model quality to be communicated across silos reducing technical debt. This whitepaper focuses on **data quality for tabular**, but general principles are applicable to other datatypes as well.
+ Data quality is a multidimensional issue ranging from simple validation to detecting intersectional biases. Many businesses are familiar with common sense pre-training data validation; what is referred to as **data quality.** Data quality and data-centric AI go beyond data quality and ask questions about the distribution of the dataset. **Data distribution quality** encompasses testing and validating the statistical assumptions made during pre-training, modeling, and deployment. **Data documentation** allows for all aspects of data and model quality to be communicated across silos reducing technical debt. This whitepaper focuses on **data quality for tabular**, but general principles are applicable to other datatypes as well.
+   
 
 ## Data Quality
 
