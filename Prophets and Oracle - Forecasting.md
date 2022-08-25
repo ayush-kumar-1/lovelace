@@ -25,3 +25,10 @@ $AR$, $MA$, and $ARMA$ models are not typically used in business, but provide go
 
 ### ARIMA 
 The auto-regressive integrated moving average model (ARIMA) is an ARMA model where moving averages are integrated through differenced variables. A differenced variable $d_t$ is simply $x_t-x_{t-1}$. ARIMA is specified by $(p, d, q)$ where $p$ is the number of autoregressive terms, $d$ is the number of differenced terms, and $q$ are lagged moving averages. 
+
+$$d_t = \sum_{n=1}^pa_nd_{t-n}+\sum_{m=1}^q\theta_m\epsilon_{t-m}+c+\epsilon_t $$
+
+### SARIMA 
+SARIMA adds a seasonality component to ARIMA. This additional seasonality is specified by an offset number of lags, $s$ and $p_s, d_s, q_s$ which specify the auto-regressive, differenced, and moving-average components of the seasonality. 
+
+$$d_t = \sum_{n=1}^pa_nd_{t-n}+\sum_{n=1}^q\theta_n\epsilon_{t-m} + \sum_{n=1}^{p_s}\phi_n d_{t-sn}+\sum_{n=1}^{q_s}\eta_n\epsilon_{t-sn} + c + \epsilon_t$$
