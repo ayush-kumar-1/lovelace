@@ -3,7 +3,7 @@ Forecasting and time series modeling depend on a fundamental assumption that the
 
 The second fundamental assumption of time-series models is a stationary environment. This means an absence of black swan events both positive and negative. This assumption usually holds when forecasting natural phenomenon, but breaks down when predicting human behavior. Any time-series model that may have radical shifts should include additional scenario planning. 
 
-Keeping in mind these two fundamental limitations time-series modeling may be appropriate. Many modern time-series frameworks automate feature engineering, but these fundamentals are key when off-the-shelf approaches fail. 
+Keeping in mind these two fundamental limitations time-series modeling may be appropriate. Many modern time-series frameworks automate feature engineering ^[[A Deep Dive on ARIMA Models. From white noise to SARIMAX and beyond | by Matt Sosna | Towards Data Science](https://towardsdatascience.com/a-deep-dive-on-arima-models-8900c199ccf)], but these fundamentals are key when off-the-shelf approaches fail. 
 
 ## Time-Series Features 
 
@@ -32,3 +32,18 @@ $$d_t = \sum_{n=1}^pa_nd_{t-n}+\sum_{m=1}^q\theta_m\epsilon_{t-m}+c+\epsilon_t $
 SARIMA adds a seasonality component to ARIMA. This additional seasonality is specified by an offset number of lags, $s$ and $p_s, d_s, q_s$ which specify the auto-regressive, differenced, and moving-average components of the seasonality. 
 
 $$d_t = \sum_{n=1}^pa_nd_{t-n}+\sum_{n=1}^q\theta_n\epsilon_{t-m} + \sum_{n=1}^{p_s}\phi_n d_{t-sn}+\sum_{n=1}^{q_s}\eta_n\epsilon_{t-sn} + c + \epsilon_t$$
+### SARIMAX 
+Adding exogenous variables, $z_1, ..., z_2$ to our model is quite simple. It simply involves an extra set of terms to handle variables that could affect our forecast outside of the signal within the time-series itself. For future terms exogenous variables often have to be specified or predicted. This will create errors in your exogenous forecasts that propagate to your final model. Limit the number of predicted exogenous variables in the model to maintain parsimony. 
+
+$$d_t = \sum_{n=1}^pa_nd_{t-n}+\sum_{n=1}^q\theta_n\epsilon_{t-m} + \sum_{n=1}^{p_s}\phi_n d_{t-sn}+\sum_{n=1}^{q_s}\eta_n\epsilon_{t-sn} + \sum_{n=1}^r\beta_rz_r+ c + \epsilon_t$$
+
+SARIMAX is hyper parameterized by $(p,d,q)(p_s,d_s,q_s)(s)$ and any additional exogenous variables. Using large orders for these numbers should be done with caution because model dimensionality can explode leading to overfitting. 
+
+# Nonlinear Modeling
+
+All the models above are linear in nature and can be estimated using standard OLS. statsmodels ^[[Introduction — statsmodels](https://www.statsmodels.org/stable/index.html)]. Standard regression techniques can be applied to these models. Moving beyond SARIMAX should be done with carefully and only with good reason. More often than not is SARIMAX models are not providing desired results the premise of the task should be revisited. Despite thi
+
+## UCM
+
+## Prophet
+
