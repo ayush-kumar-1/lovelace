@@ -13,4 +13,10 @@ The most fundamental time-series feature is the auto-regressive or lag variable.
 $$x_t = \alpha x_{t-1}+c+\epsilon_t$$
 Where $x_t$ is the variable at time $t$, and $\alpha, c$ are parameters to be estimated. $\epsilon_t$ is the random error term. which is (often incorrectly) assumed to be normally distributed. The $AR(0)$ model represents white noise guided only by this error term. The auto-regressive model can handle higher-order terms, or lags for $p$ periods. This $AR(p)$ model is written as 
 
-$$x_t = \sum_{n=1}^pa_nx_t-n$$
+$$x_t = \sum_{n=1}^pa_nx_{t-n}+c+\epsilon_t$$
+## Moving Average Variables
+Moving averages are poorly named because they are not averages at all, rather they are lagged pervious error terms. A $MA(1)$ model is represented as
+$$x_t=\theta\epsilon_{t-1}+c+\epsilon_t$$
+As with the auto-regressive terms, the moving averages can be lagged for as many periods, $q$ as needed. The $MA(q)$ model is written as 
+$$x_t = \sum_{m=1}^q\theta_m\epsilon_{t-m} + c + \epsilon_t$$
+Auto-regressive components can be combined with moving-average components, but 
