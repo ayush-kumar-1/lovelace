@@ -79,6 +79,26 @@
                 "unlinkedCollapsed": false
               }
             }
+          },
+          {
+            "id": "9b48a71761ff9ddf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Automation/Automating Excel with Python.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "45781858f960bd67",
+            "type": "leaf",
+            "state": {
+              "type": "ReferenceListView",
+              "state": {}
+            }
           }
         ]
       }
