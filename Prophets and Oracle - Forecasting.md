@@ -39,7 +39,7 @@ $$d_t = \sum_{n=1}^pa_nd_{t-n}+\sum_{n=1}^q\theta_n\epsilon_{t-m} + \sum_{n=1}^{
 
 SARIMAX is hyper parameterized by $(p,d,q)(p_s,d_s,q_s)(s)$ and any additional exogenous variables. Using large orders for these numbers should be done with caution because model dimensionality can explode leading to overfitting. 
 
-# Nonlinear Modeling
+# Non-Least Squares Modeling
 
 All the models above are linear in nature and can be estimated using standard OLS. statsmodels ^[[Introduction — statsmodels](https://www.statsmodels.org/stable/index.html)]. Standard regression techniques can be applied to these models. Moving beyond SARIMAX should be done with carefully and only with good reason. More often than not is SARIMAX models are not providing desired results the premise of the task should be revisited. Prophet is the exception, where the ease of use may be worth it over trying to specify a useful SARIMAX model. 
 
