@@ -1,0 +1,1 @@
+Does in increase in hate crimes make people vote more liberal? More generally what are the political ramifications of hate crimes?

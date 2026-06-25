@@ -1,0 +1,3 @@
+# Chapter 5 - Say's Law and Classical Monetary Theory
+"In an economy with an advanced division of labour, the means normally available to anyone for acquiring goods and services are the power to produce equivalent goods and services. Production increases not only the supply of goods but, by virtue of the requisite cost payments to the factors of production, also creates the demand to purchase these goods. 'Products are paid for by products' in domestic as much as in foreign trade; this is the gist of Say's Law of Markets. From such an innocent notion has come the furor that has not quite died out even now. The assertion that 'products are paid for by products' is by no means trivial. In one sense, it is the beginning of sound thinking in macroeconomics."
+

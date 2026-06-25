@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "333480997ae2c1d4",
+        "id": "51eb67d50a87bda0",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Prophets and Oracle - Forecasting.md",
+            "file": "Game Theory/Game Theory Week 1.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 391
+    "width": 185.5
   },
   "right": {
     "id": "068a167cf4a25bcd",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Prophets and Oracle - Forecasting.md",
+                "file": "Game Theory/Game Theory Week 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,14 +86,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Prophets and Oracle - Forecasting.md",
+                "file": "Game Theory/Game Theory Week 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "45781858f960bd67",
+            "id": "6655fb4c92c826f1",
             "type": "leaf",
             "state": {
               "type": "ReferenceListView",
@@ -107,17 +107,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "333480997ae2c1d4",
+  "active": "51eb67d50a87bda0",
   "lastOpenFiles": [
-    "Automation/Automating Excel with Python.md",
-    "Data Quality/Data Quality Blog.md",
-    "Cyberbullying Project/Introduction Draft.md",
-    "Cyberbullying Project/Related Works.md",
-    "Cyberbullying Project/Resources.md",
-    "Cyberbullying Project/Project Hub.md",
-    "Cyberbullying Project/Experimental Design.pdf",
-    "Cyberbullying Project/Dataset Quality Issue.md",
-    "Bayesian Nonparametrics.md",
-    "Data for Good.md"
+    "Macro/Macro Assignment 1.md",
+    "Macro/Hicks 1937.md",
+    "Game Theory/Game Theory Week 1.md",
+    "Solow 1984.md",
+    "Edinburgh Itinerary.md",
+    "Users/ayush/dropbox/repos/blogs/cowardice/simple_coin.svg.md",
+    "Review of Learning with Noisy Learning.md",
+    "Cowardice is Not Risk Aversion.md",
+    "CleanLab.md",
+    "Data Quality/Data Augmentation.md"
   ]
 }
